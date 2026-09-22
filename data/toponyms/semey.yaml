@@ -1,0 +1,52 @@
+id: semey
+names:
+  kk_cyr: Семей
+  kk_lat: Semei
+  ru: Семей
+  en: Semey
+type: city
+coords: [50.4111, 80.2275]
+region: KZ-10
+layer: russian
+status: draft
+etymology:
+  - gloss: «семь палат»
+    language: russian
+    analysis: >-
+      Русск. Семипалатинск ← «семь палат»: по семи каменным строениям
+      (руинам джунгарского буддийского монастыря Доржинкит) близ места
+      закладки крепости в 1718 г. Каз. Семей — усечённая фонетическая
+      адаптация русского названия, закреплена официально в 2007 г.
+    reliability: high
+    source: pospelov-2002
+historical_forms:
+  - form: Семипалатная крепость
+    script: cyrillic
+    language: russian
+    from: 1718
+    to: 1782
+    official: true
+  - form: Семипалатинск
+    script: cyrillic
+    language: russian
+    from: 1782
+    to: 2007
+    official: true
+  - form: Семей
+    script: cyrillic
+    language: kazakh
+    from: 1800
+    to: 2007
+    official: false
+    note: Казахская разговорная форма задолго до официального переименования.
+  - form: Семей
+    script: cyrillic
+    language: kazakh
+    from: 2007
+    to: null
+    official: true
+commons_categories:
+  - History of Semey
+sources: [pospelov-2002]
+links:
+  wikidata: Q61944

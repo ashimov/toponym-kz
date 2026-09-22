@@ -1,0 +1,40 @@
+id: betpakdala
+names:
+  kk_cyr: Бетпақдала
+  kk_lat: Betpaqdala
+  ru: Бетпак-Дала
+  en: Betpak-Dala
+type: desert
+coords: [46.0, 70.0]
+layer: hybrid
+status: draft
+etymology:
+  - gloss: «злосчастная степь»
+    language: persian + kazakh
+    analysis: >-
+      Бетпақ ← перс. bad-baxt «несчастный, злосчастный» + каз. дала
+      «степь». Русское «Голодная степь» — смысловая калька.
+    reliability: medium
+    source: koichubaev-1974
+  - gloss: бет «лицо» + пақ «чистый»
+    language: kazakh
+    analysis: Народная этимология по внешнему сходству компонентов.
+    reliability: folk
+    source: null
+historical_forms:
+  - form: Голодная степь
+    script: cyrillic
+    language: russian
+    from: 1800
+    to: 1950
+    official: false
+    note: Русское описательное название; так же называли и Мирзачуль в Узбекистане.
+  - form: Бетпак-Дала
+    script: cyrillic
+    language: russian
+    from: 1900
+    to: null
+    official: true
+sources: [koichubaev-1974, murzaev-1984]
+links:
+  wikidata: Q1359850

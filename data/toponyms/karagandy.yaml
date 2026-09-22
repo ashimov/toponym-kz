@@ -1,0 +1,38 @@
+id: karagandy
+names:
+  kk_cyr: Қарағанды
+  kk_lat: Qaraǵandy
+  ru: Караганда
+  en: Karaganda
+type: city
+coords: [49.8047, 73.1094]
+region: KZ-35
+layer: turkic
+status: draft
+etymology:
+  - gloss: «место, поросшее караганой»
+    language: kazakh
+    analysis: >-
+      Қараған «карагана, жёлтая акация (Caragana)» + аффикс обладания -ды:
+      «караганное место». Прозрачная тюркская модель, ср. Алматы.
+    reliability: high
+    source: koichubaev-1974
+historical_forms:
+  - form: Қарағанды
+    script: cyrillic
+    language: kazakh
+    from: 1833
+    note: Урочище, где в 1833 г. Аппак Байжанов нашёл уголь; посёлок с 1856 г.
+  - form: Караганда
+    script: cyrillic
+    language: russian
+    from: 1934
+    to: null
+    official: true
+    note: Статус города с 1934 г.
+commons_categories:
+  - History of Karaganda
+  - Karaganda by year
+sources: [koichubaev-1974]
+links:
+  wikidata: Q484706

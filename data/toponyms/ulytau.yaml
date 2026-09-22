@@ -1,0 +1,30 @@
+id: ulytau
+names:
+  kk_cyr: Ұлытау
+  kk_lat: Ulytaý
+  ru: Улытау
+  en: Ulytau
+type: range
+coords: [48.6, 67.0]
+region: KZ-62
+layer: turkic
+status: draft
+etymology:
+  - gloss: «великие горы»
+    language: kazakh
+    analysis: >-
+      Ұлы «великий, большой» + тау «гора». Сакральный центр степи:
+      ставка Джучи, мавзолеи Джучи-хана и Алаша-хана.
+    reliability: high
+    source: konkashpaev-1963
+historical_forms:
+  - form: Улутау
+    script: cyrillic
+    language: russian
+    from: 1800
+    to: null
+    official: true
+    note: Русская передача; на картах XIX в.
+sources: [konkashpaev-1963]
+links:
+  wikidata: Q444958

@@ -1,0 +1,143 @@
+# Библиография. id используется в карточках (поле source / sources).
+# Поля: id, type (dictionary|monograph|primary|map|database|article), title, author, year, place, publisher, url, note
+# Страницы указываются в самой карточке в поле note, не здесь.
+
+- id: konkashpaev-1963
+  type: dictionary
+  author: Конкашпаев Г. К.
+  title: Словарь казахских географических названий
+  year: 1963
+  place: Алма-Ата
+  publisher: Изд-во АН КазССР
+
+- id: koichubaev-1974
+  type: dictionary
+  author: Койчубаев Е.
+  title: Краткий толковый словарь топонимов Казахстана
+  year: 1974
+  place: Алма-Ата
+  publisher: Наука
+
+- id: zhanuzakov-1982
+  type: monograph
+  author: Жанұзақов Т.
+  title: Очерк казахской ономастики
+  year: 1982
+  place: Алма-Ата
+  publisher: Наука
+
+- id: abdrakhmanov-1975
+  type: monograph
+  author: Абдрахманов С. А.
+  title: Топонимика и этимология
+  year: 1975
+  place: Алма-Ата
+  publisher: Наука
+
+- id: dts-1969
+  type: dictionary
+  author: Наделяев В. М., Насилов Д. М., Тенишев Э. Р., Щербак А. М. (ред.)
+  title: Древнетюркский словарь
+  year: 1969
+  place: Ленинград
+  publisher: Наука
+
+- id: sevortyan-etsya
+  type: dictionary
+  author: Севортян Э. В. (и последующие тома под ред. Л. С. Левитской и др.)
+  title: Этимологический словарь тюркских языков
+  year: 1974
+  place: Москва
+  publisher: Наука
+  note: Многотомное издание, 1974–2003. Указывать том в карточке.
+
+- id: clauson-1972
+  type: dictionary
+  author: Clauson G.
+  title: An Etymological Dictionary of Pre-Thirteenth-Century Turkish
+  year: 1972
+  place: Oxford
+  publisher: Clarendon Press
+
+- id: kashgari-2005
+  type: primary
+  author: Махмуд ал-Кашгари
+  title: Диван лугат ат-турк (пер. З.-А. М. Ауэзовой)
+  year: 2005
+  place: Алматы
+  publisher: Дайк-Пресс
+  note: Оригинал 1072–1074 гг.
+
+- id: malov-1951
+  type: primary
+  author: Малов С. Е.
+  title: Памятники древнетюркской письменности. Тексты и исследования
+  year: 1951
+  place: Москва–Ленинград
+  publisher: Изд-во АН СССР
+  note: Орхонские надписи, в т. ч. памятник Кюль-тегину (732 г.)
+
+- id: murzaev-1984
+  type: dictionary
+  author: Мурзаев Э. М.
+  title: Словарь народных географических терминов
+  year: 1984
+  place: Москва
+  publisher: Мысль
+
+- id: pospelov-2002
+  type: dictionary
+  author: Поспелов Е. М.
+  title: Географические названия мира. Топонимический словарь
+  year: 2002
+  place: Москва
+  publisher: Русские словари, Астрель, АСТ
+
+- id: bkch-1627
+  type: primary
+  author: Сербина К. Н. (подг. к печати)
+  title: Книга Большому чертежу
+  year: 1950
+  place: Москва–Ленинград
+  publisher: Изд-во АН СССР
+  note: Памятник 1627 г.
+
+- id: menander
+  type: primary
+  author: Менандр Протектор
+  title: История (фрагменты). В кн. Византийские историки. Пер. С. Дестуниса
+  year: 1860
+  place: Санкт-Петербург
+  note: Посольство Земарха к тюркам, 568 г.
+
+- id: levshin-1832
+  type: monograph
+  author: Левшин А. И.
+  title: Описание киргиз-казачьих, или киргиз-кайсацких, орд и степей
+  year: 1832
+  place: Санкт-Петербург
+
+- id: radlov-1893
+  type: dictionary
+  author: Радлов В. В.
+  title: Опыт словаря тюркских наречий
+  year: 1893
+  place: Санкт-Петербург
+  note: 4 тома, 1893–1911
+
+- id: wikidata
+  type: database
+  title: Wikidata
+  url: https://www.wikidata.org
+  note: Только для координат, идентификаторов и дат официальных переименований. Не источник этимологий.
+
+- id: osm
+  type: database
+  title: OpenStreetMap
+  url: https://www.openstreetmap.org
+  note: Координаты и границы. Лицензия ODbL.
+
+- id: gkgn-kz
+  type: database
+  title: Государственный каталог географических названий Республики Казахстан
+  note: Официальные современные формы названий. Ссылку и издание уточнить.

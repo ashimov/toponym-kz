@@ -1,0 +1,36 @@
+id: zhezkazgan
+names:
+  kk_cyr: Жезқазған
+  kk_lat: Jezqazǵan
+  ru: Жезказган
+  en: Zhezkazgan
+type: city
+coords: [47.7833, 67.7167]
+region: KZ-62
+layer: turkic
+status: draft
+etymology:
+  - gloss: «место, где копали медь»
+    language: kazakh
+    analysis: >-
+      Жез «медь, латунь» + қазған «выкопанный» (причастие от қаз- «копать»).
+      Древние медные выработки известны здесь с эпохи бронзы.
+    reliability: high
+    source: konkashpaev-1963
+historical_forms:
+  - form: Джезказган
+    script: cyrillic
+    language: russian
+    from: 1938
+    to: 1992
+    official: true
+    note: Посёлок с 1938 г., город с 1954 г.
+  - form: Жезқазған
+    script: cyrillic
+    language: kazakh
+    from: 1992
+    to: null
+    official: true
+sources: [konkashpaev-1963]
+links:
+  wikidata: Q740832

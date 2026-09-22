@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://toponym.kz/schema/toponym.json",
+  "title": "Карточка топонима",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "names", "type", "coords", "layer", "etymology", "sources"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Латинский слаг, совпадает с именем файла: atyrau.yaml"
+    },
+    "names": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kk_cyr", "ru"],
+      "properties": {
+        "kk_cyr": { "type": "string", "description": "Казахский, кириллица" },
+        "kk_lat": { "type": "string", "description": "Казахский, латиница (стандарт 2021)" },
+        "ru": { "type": "string" },
+        "en": { "type": "string" }
+      }
+    },
+    "type": {
+      "type": "string",
+      "enum": ["city", "town", "village", "river", "lake", "sea", "mountain", "range", "desert", "steppe", "region", "site", "other"],
+      "description": "Класс объекта. city/town/village = ойконимы; river/lake/sea = гидронимы; mountain/range = оронимы"
+    },
+    "coords": {
+      "type": "array",
+      "items": { "type": "number" },
+      "minItems": 2,
+      "maxItems": 2,
+      "description": "[широта, долгота] в десятичных градусах, WGS84"
+    },
+    "region": { "type": "string", "pattern": "^KZ-[0-9]{2}$", "description": "Код области ISO 3166-2, напр. KZ-23" },
+    "layer": {
+      "type": "string",
+      "enum": ["turkic", "mongolic", "iranian", "arabic", "russian", "soviet", "hybrid", "substrate", "unknown"],
+      "description": "Языковой пласт по принятой (наиболее надёжной) гипотезе"
+    },
+    "etymology": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["gloss", "reliability"],
+        "properties": {
+          "gloss": { "type": "string", "description": "Краткое значение: «устье реки»" },
+          "analysis": { "type": "string", "description": "Морфемный разбор и аргументация" },
+          "language": { "type": "string", "description": "Язык-источник для этой гипотезы" },
+          "reliability": {
+            "type": "string",
+            "enum": ["high", "medium", "low", "folk", "rejected"],
+            "description": "high = консенсус словарей; medium = одна авторитетная версия; low = гипотеза; folk = народная этимология; rejected = опровергнута"
+          },
+          "source": { "type": ["string", "null"], "description": "id из sources.yaml" },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "historical_forms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["form"],
+        "properties": {
+          "form": { "type": "string", "description": "Форма как в источнике" },
+          "script": {
+            "type": "string",
+            "enum": ["cyrillic", "latin", "arabic", "old-turkic", "greek", "chinese", "other"],
+            "description": "Письменность источника"
+          },
+          "language": { "type": "string" },
+          "from": { "type": "integer", "description": "Год начала употребления или год фиксации" },
+          "to": { "type": ["integer", "null"], "description": "Год конца; null или отсутствие = до сих пор" },
+          "attested": { "type": "integer", "description": "Год конкретной фиксации в источнике, если отличается от from" },
+          "official": { "type": "boolean", "description": "true = официальное название в этот период" },
+          "source": { "type": ["string", "null"] },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "id из sources.yaml, использованные в карточке"
+    },
+    "links": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "wikidata": { "type": "string", "pattern": "^Q[0-9]+$" },
+        "osm": { "type": "string", "description": "node/123 | way/123 | relation/123" },
+        "geonames": { "type": "integer" }
+      }
+    },
+    "commons_categories": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Категории Викисклада с историческими фото, напр. «History of Almaty». Скрипт npm run photos выкачивает их в public/data/photos/<id>.json"
+    },
+    "media": {
+      "type": "array",
+      "description": "Отобранные вручную фотографии (показываются первыми). file — имя файла на Викискладе без префикса File:",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["file", "year"],
+        "properties": {
+          "file": { "type": "string" },
+          "year": { "type": "integer" },
+          "caption": { "type": "string" },
+          "author": { "type": "string" },
+          "license": { "type": "string" },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "reviewed", "published"],
+      "default": "draft",
+      "description": "draft = черновик; reviewed = проверено по источникам; published = утверждено"
+    },
+    "notes": { "type": "string", "description": "Рабочие заметки, не показываются на карте" }
+  }
+}

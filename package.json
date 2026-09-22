@@ -1,0 +1,29 @@
+{
+  "name": "toponym-kz",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Топонимическая карта Казахстана: происхождение названий, исторические формы, источники",
+  "scripts": {
+    "data": "node scripts/build-data.mjs",
+    "validate": "node scripts/validate.mjs",
+    "regions": "node scripts/build-regions.mjs",
+    "photos": "node scripts/build-photos.mjs",
+    "wikidata": "node scripts/check-wikidata.mjs",
+    "export:lpf": "node scripts/export-lpf.mjs",
+    "dev": "npm run data && vite",
+    "build": "npm run validate && npm run data && npm run export:lpf && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "maplibre-gl": "^5.6.0"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "js-yaml": "^4.1.0",
+    "mapshaper": "^0.6.102",
+    "osmtogeojson": "^3.0.0-beta.5",
+    "vite": "^6.3.5"
+  }
+}

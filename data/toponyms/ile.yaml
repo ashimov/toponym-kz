@@ -1,0 +1,40 @@
+id: ile
+names:
+  kk_cyr: Іле
+  kk_lat: Ile
+  ru: Или
+  en: Ili
+type: river
+coords: [44.3, 76.5]
+layer: unknown
+status: draft
+etymology:
+  - gloss: этимология не установлена
+    language: unknown
+    analysis: >-
+      Гидроним засвидетельствован в китайских источниках (伊犁 Yili) с эпохи
+      Хань. Предлагались монгольское ил «блестящий, сверкающий», тюркское
+      ил/ел «страна» и уйгурское объяснение; надёжной версии нет.
+    reliability: medium
+    source: murzaev-1984
+  - gloss: тюрк. ілу «висеть» / іл «цеплять»
+    language: kazakh
+    analysis: Народная этимология по созвучию.
+    reliability: folk
+    source: null
+historical_forms:
+  - form: 伊犁 (Или)
+    script: chinese
+    language: chinese
+    from: -100
+    note: Китайские источники ханьского времени; точную первую фиксацию уточнить.
+  - form: Ила / Или
+    script: cyrillic
+    language: russian
+    from: 1850
+    to: null
+    official: true
+links:
+  wikidata: Q192567
+sources: [murzaev-1984, konkashpaev-1963]
+notes: Проверить китайскую форму и датировку по Бичурину или Малявкину.

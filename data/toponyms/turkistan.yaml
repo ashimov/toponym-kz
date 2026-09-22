@@ -1,0 +1,59 @@
+id: turkistan
+names:
+  kk_cyr: Түркістан
+  kk_lat: Túrkistan
+  ru: Туркестан
+  en: Turkistan
+type: city
+coords: [43.2973, 68.2517]
+region: KZ-61
+layer: iranian
+status: draft
+etymology:
+  - gloss: «страна тюрков»
+    language: persian
+    analysis: >-
+      Перс. Turkistān: türk + -stān (иранский суффикс места, «страна»).
+      Как имя города закрепилось в XVI–XVII вв., когда Йасы стал
+      главным городом региона и центром почитания Ахмеда Йасави.
+    reliability: high
+    source: pospelov-2002
+historical_forms:
+  - form: Шавгар
+    script: arabic
+    language: iranian
+    from: 900
+    to: 1100
+    note: Город арабских географов X в.; отождествление с Туркестаном или городищем рядом остаётся дискуссионным.
+  - form: Йасы (Ясы)
+    script: arabic
+    language: turkic
+    from: 1100
+    to: 1600
+    note: Город, где жил и похоронен Ахмед Йасави (ум. 1166). Форма встречается до XVI в.
+  - form: Хазрет / Әзірет
+    script: arabic
+    language: arabic → kazakh
+    from: 1400
+    to: 1900
+    official: false
+    note: Народное именование по мавзолею «Хазрет-и Туркестан» («святыня Туркестана»).
+  - form: Туркестан
+    script: cyrillic
+    language: russian
+    from: 1864
+    to: 1993
+    official: true
+  - form: Түркістан
+    script: cyrillic
+    language: kazakh
+    from: 1993
+    to: null
+    official: true
+commons_categories:
+  - History of Turkistan
+  - Turkistan in the 19th century
+sources: [pospelov-2002]
+links:
+  wikidata: Q848638
+notes: Проверить датировку форм Шавгар и Йасы по Бартольду и археологическим отчётам.

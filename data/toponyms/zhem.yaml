@@ -1,0 +1,37 @@
+id: zhem
+names:
+  kk_cyr: Жем
+  kk_lat: Jem
+  ru: Эмба
+  en: Emba
+type: river
+coords: [47.0, 55.0]
+layer: turkic
+status: draft
+etymology:
+  - gloss: «корм, пастбище»
+    language: kazakh
+    analysis: >-
+      Каз. жем «корм, пища; пастбище» — по богатым выпасам в долине.
+      Русск. Эмба — через тат./башк. передачу (Йем/Эм + -ба?). Соотношение
+      форм Жем и Эмба требует проверки.
+    reliability: low
+    source: konkashpaev-1963
+historical_forms:
+  - form: Емъ / Эмба
+    script: cyrillic
+    language: russian
+    from: 1627
+    to: null
+    official: true
+    source: bkch-1627
+    note: Проверить написание в Книге Большому чертежу.
+  - form: Жем
+    script: cyrillic
+    language: kazakh
+    from: 1700
+    to: null
+    official: true
+links:
+  wikidata: Q517670
+sources: [konkashpaev-1963, bkch-1627]

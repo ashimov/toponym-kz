@@ -1,0 +1,7 @@
+node_modules/
+dist/
+public/data/toponyms.json
+public/data/sources.json
+.DS_Store
+.playwright-mcp/
+.remember/

@@ -1,0 +1,29 @@
+id: nura
+names:
+  kk_cyr: Нұра
+  kk_lat: Nura
+  ru: Нура
+  en: Nura
+type: river
+coords: [50.3, 71.5]
+layer: turkic
+status: draft
+etymology:
+  - gloss: «луч; сияние» или «низина»
+    language: kazakh
+    analysis: >-
+      Каз. нұр «луч, сияние» (арабизм) + -а — семантически необычно для
+      гидронима. Более убедительна связь с др.-тюрк. географическим
+      термином нура/нуру «ложбина, низина» (ср. монг. нуруу «хребет»).
+    reliability: low
+    source: murzaev-1984
+historical_forms:
+  - form: Нура
+    script: cyrillic
+    language: russian
+    from: 1800
+    to: null
+    official: true
+links:
+  wikidata: Q1817051
+sources: [murzaev-1984]

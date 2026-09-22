@@ -1,0 +1,91 @@
+id: astana
+names:
+  kk_cyr: Астана
+  kk_lat: Astana
+  ru: Астана
+  en: Astana
+type: city
+coords: [51.1694, 71.4491]
+region: KZ-71
+layer: iranian
+status: draft
+etymology:
+  - gloss: «столица»
+    language: persian → kazakh
+    analysis: >-
+      Каз. астана «столица» восходит к перс. āstāne «порог; дворцовый порог,
+      резиденция правителя». В казахском языке слово закрепилось в значении
+      «столица» и в 1998 г. стало именем собственным.
+    reliability: high
+    source: pospelov-2002
+  - gloss: Ақмола — «белая святыня / белая могила»
+    language: kazakh
+    analysis: >-
+      Относится к прежней форме Ақмола: ақ «белый» + мола «могила, мазар»
+      (арабизм через персидский). Обычно связывают с известняковым холмом
+      или мавзолеем в окрестностях.
+    reliability: medium
+    source: koichubaev-1974
+    note: Относится к форме Ақмола, а не к современному названию.
+  - gloss: Ақмола — «белое изобилие» (ақ мол)
+    language: kazakh
+    analysis: >-
+      Версия через ақ «белый; молочная пища» + мол «обильный»: место,
+      изобилующее молочными продуктами. Широко цитируется в популярной
+      литературе, но морфологически слабее.
+    reliability: folk
+    source: null
+historical_forms:
+  - form: Ақмола
+    script: cyrillic
+    language: kazakh
+    from: 1830
+    note: Урочище и приказ; год основания русского укрепления — 1830.
+  - form: Акмолинск
+    script: cyrillic
+    language: russian
+    from: 1832
+    to: 1961
+    official: true
+    source: pospelov-2002
+  - form: Целиноград
+    script: cyrillic
+    language: russian
+    from: 1961
+    to: 1992
+    official: true
+    note: В честь освоения целины.
+  - form: Ақмола
+    script: cyrillic
+    language: kazakh
+    from: 1992
+    to: 1998
+    official: true
+  - form: Астана
+    script: cyrillic
+    language: kazakh
+    from: 1998
+    to: 2019
+    official: true
+    note: Столица с 10 декабря 1997 г.; переименование в 1998 г.
+  - form: Нұр-Сұлтан
+    script: cyrillic
+    language: kazakh
+    from: 2019
+    to: 2022
+    official: true
+    note: В честь первого президента Н. Назарбаева.
+  - form: Астана
+    script: cyrillic
+    language: kazakh
+    from: 2022
+    to: null
+    official: true
+commons_categories:
+  - History of Astana
+  - Astana by year
+sources: [pospelov-2002, koichubaev-1974]
+links:
+  wikidata: Q1520
+  osm: relation/3087155
+notes: Проверить даты переименований по официальным актам. Уточнить страницу у Койчубаева.

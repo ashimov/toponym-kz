@@ -1,0 +1,80 @@
+id: taraz
+names:
+  kk_cyr: Тараз
+  kk_lat: Taraz
+  ru: Тараз
+  en: Taraz
+type: city
+coords: [42.9, 71.3667]
+region: KZ-31
+layer: unknown
+status: draft
+etymology:
+  - gloss: этимология не установлена
+    language: unknown
+    analysis: >-
+      Название засвидетельствовано с VI в. (Талас у византийцев, Тараз у
+      арабских географов). Иранское или согдийское происхождение вероятно,
+      надёжной этимологии нет.
+    reliability: medium
+    source: pospelov-2002
+  - gloss: «весы» (тюрк. таразы)
+    language: turkic
+    analysis: >-
+      Сближение с каз. таразы «весы» (арабизм) — народная этимология,
+      хронологически невозможная: название старше арабских заимствований.
+    reliability: folk
+    source: null
+historical_forms:
+  - form: Τάλας (Талас)
+    script: greek
+    language: greek
+    from: 568
+    attested: 568
+    source: menander
+    note: Посольство Земарха к тюркскому кагану.
+  - form: طراز (Тараз)
+    script: arabic
+    language: arabic
+    from: 900
+    to: 1500
+    source: kashgari-2005
+    note: У арабских географов X в. и у Кашгари.
+  - form: Аулие-Ата
+    script: cyrillic
+    language: kazakh
+    from: 1856
+    to: 1936
+    official: true
+    note: Әулие-ата «святой отец» — по мавзолею Карахана. Кокандская крепость, с 1864 г. — русский город.
+  - form: Мирзоян
+    script: cyrillic
+    language: russian
+    from: 1936
+    to: 1938
+    official: true
+    note: В честь Л. Мирзояна, репрессирован в 1938 г.
+  - form: Джамбул
+    script: cyrillic
+    language: russian
+    from: 1938
+    to: 1993
+    official: true
+    note: В честь акына Жамбыла Жабаева.
+  - form: Жамбыл
+    script: cyrillic
+    language: kazakh
+    from: 1993
+    to: 1997
+    official: true
+  - form: Тараз
+    script: cyrillic
+    language: kazakh
+    from: 1997
+    to: null
+    official: true
+commons_categories:
+  - History of Taraz
+sources: [menander, kashgari-2005, pospelov-2002]
+links:
+  wikidata: Q486545

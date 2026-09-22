@@ -1,0 +1,67 @@
+id: kyzylorda
+names:
+  kk_cyr: Қызылорда
+  kk_lat: Qyzylorda
+  ru: Кызылорда
+  en: Kyzylorda
+type: city
+coords: [44.8488, 65.4823]
+region: KZ-43
+layer: soviet
+status: draft
+etymology:
+  - gloss: «красная столица»
+    language: kazakh (советское образование)
+    analysis: >-
+      Қызыл «красный» + орда «ставка, столица». Дано в 1925 г. при переносе
+      столицы Казахской АССР; «красный» — в революционном значении.
+      Тюркский материал, советская мотивация.
+    reliability: high
+    source: pospelov-2002
+  - gloss: Ақмешіт — «белая мечеть»
+    language: kazakh
+    analysis: Ақ «белый» + мешіт «мечеть» (арабизм). Относится к прежней форме.
+    reliability: high
+    source: koichubaev-1974
+    note: Относится к форме Ақмешіт.
+historical_forms:
+  - form: Ақмешіт (Ак-Мечеть)
+    script: cyrillic
+    language: kazakh
+    from: 1820
+    to: 1853
+    official: true
+    note: Кокандская крепость.
+  - form: Форт Перовский
+    script: cyrillic
+    language: russian
+    from: 1853
+    to: 1867
+    official: true
+    note: В честь генерала В. Перовского, взявшего крепость.
+  - form: Перовск
+    script: cyrillic
+    language: russian
+    from: 1867
+    to: 1925
+    official: true
+  - form: Кзыл-Орда
+    script: cyrillic
+    language: russian
+    from: 1925
+    to: 1997
+    official: true
+    note: Столица КазАССР 1925–1929 гг.
+  - form: Қызылорда
+    script: cyrillic
+    language: kazakh
+    from: 1997
+    to: null
+    official: true
+commons_categories:
+  - Historical images of Kyzylorda
+  - History of Kyzylorda
+sources: [pospelov-2002, koichubaev-1974]
+links:
+  wikidata: Q491123
+notes: Wikidata ID проверить — возможно совпадение с другим городом.

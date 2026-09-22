@@ -1,0 +1,80 @@
+id: almaty
+names:
+  kk_cyr: Алматы
+  kk_lat: Almaty
+  ru: Алматы
+  en: Almaty
+type: city
+coords: [43.2380, 76.9452]
+region: KZ-75
+layer: turkic
+status: draft
+etymology:
+  - gloss: «яблочное (место)»
+    language: turkic
+    analysis: >-
+      Алма «яблоко» + аффикс обладания -ты (вариант -лы/-ды): «место,
+      где много яблок». Модель типична для тюркской топонимии
+      (ср. Қарағанды, Балқашты). Подкрепляется дикими яблоневыми лесами
+      Заилийского Алатау (Malus sieversii).
+    reliability: high
+    source: koichubaev-1974
+  - gloss: Алма-Ата — «отец яблок»
+    language: kazakh (искусственное)
+    analysis: >-
+      Форма 1921 г. создана как «алма» + «ата» («отец»). Для казахского
+      языка сочетание неестественно, это административное новообразование,
+      а не этимология исходного названия.
+    reliability: rejected
+    source: null
+historical_forms:
+  - form: Алмату
+    script: arabic
+    language: turkic
+    from: 1270
+    attested: 1271
+    source: null
+    note: Чеканка серебряных дирхемов монетного двора «Алмату», XIII в. Точную дату и публикацию уточнить.
+  - form: Верный
+    script: cyrillic
+    language: russian
+    from: 1854
+    to: 1921
+    official: true
+    note: Укрепление Заилийское (1854), с 1855 г. — Верное, город с 1867 г.
+  - form: Алма-Ата
+    script: cyrillic
+    language: russian
+    from: 1921
+    to: 1993
+    official: true
+  - form: Алматы
+    script: cyrillic
+    language: kazakh
+    from: 1993
+    to: null
+    official: true
+media:
+  - file: "Square in the village of Vernoe (1857).jpg"
+    year: 1857
+    caption: Площадь в укреплении Верное, 1857 г.
+  - file: "Верный (Алма-Ата) 1878 из Винклера.jpg"
+    year: 1878
+    caption: Верный, 1878 г. Гравюра из издания Винклера.
+  - file: "Верный. Развалины собора.(N1136)Ордэн,1887-1888гг.Альбом.1-4.Кавказ и Ср.Азия 147b4f9302 o.jpg"
+    year: 1887
+    caption: Развалины собора после землетрясения 1887 г.
+  - file: "Ascension Cathedral 1913.jpg"
+    year: 1913
+    caption: Вознесенский собор, 1913 г.
+  - file: "Almaty1921 Sel Malaya Almatinka.jpg"
+    year: 1921
+    caption: Последствия селя на Малой Алматинке, 1921 г.
+commons_categories:
+  - History of Almaty
+  - Almaty by year
+sources: [koichubaev-1974, pospelov-2002]
+links:
+  wikidata: Q35493
+  osm: relation/2465058
+notes: Найти публикацию монет Алмату (нумизматика Чагатайского улуса).

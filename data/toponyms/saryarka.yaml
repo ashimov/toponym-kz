@@ -1,0 +1,30 @@
+id: saryarka
+names:
+  kk_cyr: Сарыарқа
+  kk_lat: Saryarqa
+  ru: Сарыарка (Казахский мелкосопочник)
+  en: Saryarka
+type: steppe
+coords: [49.0, 70.0]
+layer: turkic
+status: draft
+etymology:
+  - gloss: «жёлтая спина / широкая жёлтая возвышенность»
+    language: kazakh
+    analysis: >-
+      Сары «жёлтый; также обширный» + арқа «спина, хребет; возвышенность».
+      Название исторического ядра казахской степи; в русской географии —
+      Казахский мелкосопочник.
+    reliability: high
+    source: konkashpaev-1963
+historical_forms:
+  - form: Казахский мелкосопочник
+    script: cyrillic
+    language: russian
+    from: 1900
+    to: null
+    official: true
+    note: Геоморфологический термин, а не топоним в строгом смысле.
+sources: [konkashpaev-1963]
+links:
+  wikidata: Q45869

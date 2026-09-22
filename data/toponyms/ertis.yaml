@@ -1,0 +1,52 @@
+id: ertis
+names:
+  kk_cyr: Ертіс
+  kk_lat: Ertis
+  ru: Иртыш
+  en: Irtysh
+type: river
+coords: [52.2, 76.9]
+layer: unknown
+status: draft
+etymology:
+  - gloss: «землерой, размывающий землю»
+    language: turkic
+    analysis: >-
+      Популярная версия: ир/жер «земля» + тыш/теш- «рыть, копать» — река,
+      прорывающая землю. Фонетически и морфологически уязвима, в
+      академических словарях подаётся с оговорками.
+    reliability: low
+    source: konkashpaev-1963
+  - gloss: субстратное (дотюркское) название
+    language: substrate
+    analysis: >-
+      Ряд исследователей считает гидроним дотюркским (кетским или иным
+      палеосибирским), с тюркской адаптацией. Прямых доказательств нет.
+    reliability: low
+    source: murzaev-1984
+historical_forms:
+  - form: Ärtiš (Ертіс)
+    script: old-turkic
+    language: old-turkic
+    from: 732
+    attested: 732
+    source: malov-1951
+    note: "Памятник Кюль-тегину: переправа через Ертiс во время похода на тюргешей."
+  - form: Ertiš
+    script: arabic
+    language: turkic
+    attested: 1074
+    from: 1074
+    source: kashgari-2005
+    note: Река в стране йемеков (кимаков).
+  - form: Иртыш
+    script: cyrillic
+    language: russian
+    from: 1582
+    to: null
+    official: true
+    note: С похода Ермака; форма закрепилась в сибирских летописях.
+sources: [malov-1951, kashgari-2005, konkashpaev-1963, murzaev-1984]
+links:
+  wikidata: Q128102
+notes: Проверить точную цитату в надписи Кюль-тегину (строка) по Малову.

@@ -1,0 +1,31 @@
+id: ekibastuz
+names:
+  kk_cyr: Екібастұз
+  kk_lat: Ekibastuz
+  ru: Экибастуз
+  en: Ekibastuz
+type: city
+coords: [51.7167, 75.3167]
+region: KZ-55
+layer: turkic
+status: draft
+etymology:
+  - gloss: «две головы соли»
+    language: kazakh
+    analysis: >-
+      Екі «два» + бас «голова» + тұз «соль»: по преданию, двумя глыбами
+      соли было отмечено место найденного угля (1866 г.). Морфологически
+      прозрачно, мотивация — из устной традиции.
+    reliability: medium
+    source: koichubaev-1974
+historical_forms:
+  - form: Экибастуз
+    script: cyrillic
+    language: russian
+    from: 1898
+    to: null
+    official: true
+    note: Посёлок при копях с 1898 г., город с 1957 г.
+sources: [koichubaev-1974]
+links:
+  wikidata: Q496442

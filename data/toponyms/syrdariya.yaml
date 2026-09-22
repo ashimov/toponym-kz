@@ -1,0 +1,47 @@
+id: syrdariya
+names:
+  kk_cyr: Сырдария
+  kk_lat: Syrdarııa
+  ru: Сырдарья
+  en: Syr Darya
+type: river
+coords: [44.85, 65.5]
+layer: hybrid
+status: draft
+etymology:
+  - gloss: «река Сыр»
+    language: persian + unknown
+    analysis: >-
+      Дария — перс. daryā «море, большая река». Компонент Сыр не имеет
+      общепринятой этимологии; предлагались связи с тюрк. сары «жёлтый»
+      (по цвету воды) и с древним иранским названием.
+    reliability: medium
+    source: pospelov-2002
+  - gloss: Сыр ← сары «жёлтая»
+    language: turkic
+    analysis: Сближение с сары «жёлтый» по мутной воде. Фонетически не объясняет форму Сыр.
+    reliability: low
+    source: null
+historical_forms:
+  - form: Ἰαξάρτης (Яксарт)
+    script: greek
+    language: greek
+    from: -329
+    to: 700
+    note: Античное название; поход Александра 329 г. до н. э., фиксация у Арриана (II в.) и Птолемея.
+  - form: سيحون (Сейхун)
+    script: arabic
+    language: arabic
+    from: 800
+    to: 1500
+    note: У арабских географов; парное к Джейхун (Амударья).
+  - form: Сыр-Дарья
+    script: cyrillic
+    language: russian
+    from: 1700
+    to: null
+    official: true
+    note: Первую русскую фиксацию уточнить (XVII–XVIII вв.).
+sources: [pospelov-2002, murzaev-1984]
+links:
+  wikidata: Q483159

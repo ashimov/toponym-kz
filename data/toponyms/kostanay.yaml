@@ -1,0 +1,51 @@
+id: kostanay
+names:
+  kk_cyr: Қостанай
+  kk_lat: Qostanai
+  ru: Костанай
+  en: Kostanay
+type: city
+coords: [53.2144, 63.6246]
+region: KZ-39
+layer: unknown
+status: draft
+etymology:
+  - gloss: этимология спорна
+    language: unknown
+    analysis: >-
+      Единого мнения нет. Название урочища существовало до основания города
+      в 1879 г.
+    reliability: medium
+    source: koichubaev-1974
+  - gloss: от личного имени Костанай
+    language: kazakh
+    analysis: Версия об антропониме (имя владельца зимовки).
+    reliability: low
+    source: null
+  - gloss: қос «пара, стан» + тана «телушка»
+    language: kazakh
+    analysis: Народная этимология «стан с телятами»; семантически неубедительна.
+    reliability: folk
+    source: null
+historical_forms:
+  - form: Николаевск
+    script: cyrillic
+    language: russian
+    from: 1879
+    to: 1893
+    official: true
+  - form: Кустанай
+    script: cyrillic
+    language: russian
+    from: 1893
+    to: 1997
+    official: true
+  - form: Қостанай
+    script: cyrillic
+    language: kazakh
+    from: 1997
+    to: null
+    official: true
+sources: [koichubaev-1974, pospelov-2002]
+links:
+  wikidata: Q488990

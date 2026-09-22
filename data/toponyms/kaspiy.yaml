@@ -1,0 +1,48 @@
+id: kaspiy
+names:
+  kk_cyr: Каспий теңізі
+  kk_lat: Kaspıı teńizi
+  ru: Каспийское море
+  en: Caspian Sea
+type: sea
+coords: [44.0, 50.5]
+layer: substrate
+status: draft
+etymology:
+  - gloss: «море каспиев»
+    language: greek ← iranian
+    analysis: >-
+      По племени каспиев (Κάσπιοι) у Геродота; название закрепилось через
+      греко-латинскую традицию. У тюркских и арабских авторов море носило
+      другие имена (Хазарское, Хвалынское, Гирканское).
+    reliability: high
+    source: pospelov-2002
+historical_forms:
+  - form: Ὑρκανία θάλασσα (Гирканское)
+    script: greek
+    language: greek
+    from: -400
+    to: 500
+    note: По области Гиркания на южном берегу.
+  - form: بحر الخزر (Хазарское)
+    script: arabic
+    language: arabic
+    from: 800
+    to: 1500
+    note: У арабских географов; по хазарам.
+  - form: Хвалынское море
+    script: cyrillic
+    language: russian
+    from: 1100
+    to: 1700
+    source: bkch-1627
+    note: По хвалисам (хорезмийцам); в Книге Большому чертежу.
+  - form: Каспийское море
+    script: cyrillic
+    language: russian
+    from: 1700
+    to: null
+    official: true
+sources: [pospelov-2002, bkch-1627]
+links:
+  wikidata: Q5484

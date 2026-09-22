@@ -1,0 +1,51 @@
+id: petropavl
+names:
+  kk_cyr: Петропавл
+  kk_lat: Petropavl
+  ru: Петропавловск
+  en: Petropavl
+type: city
+coords: [54.8667, 69.15]
+region: KZ-59
+layer: russian
+status: draft
+etymology:
+  - gloss: «крепость Святого Петра (и Павла)»
+    language: russian
+    analysis: >-
+      Заложена в 1752 г. как крепость Святого Петра на Пресногорьковской
+      линии; название по церкви Петра и Павла. Каз. Петропавл — адаптация.
+    reliability: high
+    source: pospelov-2002
+  - gloss: Қызылжар — «красный яр»
+    language: kazakh
+    analysis: >-
+      Қызыл «красный» + жар «обрыв, крутой берег»: по обрывистому берегу
+      Есиля (Ишима). Историческое казахское название места.
+    reliability: high
+    source: konkashpaev-1963
+    note: Относится к форме Қызылжар.
+historical_forms:
+  - form: Қызылжар
+    script: cyrillic
+    language: kazakh
+    from: 1700
+    to: null
+    official: false
+    note: Употребляется до сих пор как неофициальное название.
+  - form: Крепость Святого Петра
+    script: cyrillic
+    language: russian
+    from: 1752
+    to: 1807
+    official: true
+  - form: Петропавловск
+    script: cyrillic
+    language: russian
+    from: 1807
+    to: null
+    official: true
+    note: Статус города с 1807 г.
+sources: [pospelov-2002, konkashpaev-1963]
+links:
+  wikidata: Q488379

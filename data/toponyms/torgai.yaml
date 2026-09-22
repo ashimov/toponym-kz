@@ -1,0 +1,29 @@
+id: torgai
+names:
+  kk_cyr: Торғай
+  kk_lat: Torǵai
+  ru: Тургай
+  en: Turgay
+type: river
+coords: [49.0, 63.5]
+layer: turkic
+status: draft
+etymology:
+  - gloss: «жаворонок; воробей»
+    language: kazakh
+    analysis: >-
+      Каз. торғай «воробей, мелкая птица»; ср. др.-тюрк. torïγa «жаворонок».
+      Мотивация — обилие птиц в долине. Название реки, области (1868–1920,
+      1970–1997) и исторической области Тургайская степь.
+    reliability: medium
+    source: konkashpaev-1963
+historical_forms:
+  - form: Тургай
+    script: cyrillic
+    language: russian
+    from: 1800
+    to: null
+    official: true
+links:
+  wikidata: Q658832
+sources: [konkashpaev-1963, dts-1969]

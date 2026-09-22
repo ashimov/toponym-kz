@@ -1,0 +1,52 @@
+id: atyrau
+names:
+  kk_cyr: Атырау
+  kk_lat: Atyraý
+  ru: Атырау
+  en: Atyrau
+type: city
+coords: [47.1167, 51.8833]
+region: KZ-23
+layer: turkic
+status: draft
+etymology:
+  - gloss: «дельта, устье реки; речные острова»
+    language: kazakh
+    analysis: >-
+      Каз. географический термин атырау «дельта, разветвлённое устье,
+      участок между рукавами реки». Город стоит в дельте Жайыка (Урала).
+    reliability: high
+    source: konkashpaev-1963
+historical_forms:
+  - form: Гурьев городок
+    script: cyrillic
+    language: russian
+    from: 1640
+    to: 1708
+    note: Основан купцами Гурьевыми как рыбацкий острог. Год основания в источниках варьируется (1640–1645).
+  - form: Гурьев
+    script: cyrillic
+    language: russian
+    from: 1708
+    to: 1991
+    official: true
+  - form: Үйшік
+    script: cyrillic
+    language: kazakh
+    from: 1750
+    to: 1991
+    official: false
+    note: Народное казахское название города в XVIII–XX вв. Этимология требует отдельной проверки.
+  - form: Атырау
+    script: cyrillic
+    language: kazakh
+    from: 1991
+    to: null
+    official: true
+commons_categories:
+  - History of Atyrau
+  - Atyrau by year
+sources: [konkashpaev-1963, pospelov-2002]
+links:
+  wikidata: Q486913
+notes: Проверить дату получения статуса города Гурьевом.

@@ -1,0 +1,52 @@
+id: pavlodar
+names:
+  kk_cyr: Павлодар
+  kk_lat: Pavlodar
+  ru: Павлодар
+  en: Pavlodar
+type: city
+coords: [52.2873, 76.9674]
+region: KZ-55
+layer: russian
+status: draft
+etymology:
+  - gloss: «дар Павла»
+    language: russian
+    analysis: >-
+      Назван в 1861 г. в честь рождения великого князя Павла Александровича:
+      Павел + дар. Казахская народная форма Кереку — адаптация прежнего
+      названия «Коряковский» (форпост).
+    reliability: high
+    source: pospelov-2002
+historical_forms:
+  - form: Коряковский форпост
+    script: cyrillic
+    language: russian
+    from: 1720
+    to: 1838
+    official: true
+    note: По Коряковскому соляному озеру.
+  - form: Коряковская станица
+    script: cyrillic
+    language: russian
+    from: 1838
+    to: 1861
+    official: true
+  - form: Кереку
+    script: cyrillic
+    language: kazakh
+    from: 1800
+    to: null
+    official: false
+    note: Казахское народное название, употребляется до сих пор.
+  - form: Павлодар
+    script: cyrillic
+    language: russian
+    from: 1861
+    to: null
+    official: true
+commons_categories:
+  - History of Pavlodar
+sources: [pospelov-2002]
+links:
+  wikidata: Q486282

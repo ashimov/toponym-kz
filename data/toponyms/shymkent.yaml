@@ -1,0 +1,45 @@
+id: shymkent
+names:
+  kk_cyr: Шымкент
+  kk_lat: Shymkent
+  ru: Шымкент
+  en: Shymkent
+type: city
+coords: [42.3417, 69.5901]
+region: KZ-79
+layer: hybrid
+status: draft
+etymology:
+  - gloss: «дерновый город, город среди зелени»
+    language: iranian + turkic
+    analysis: >-
+      Шым/чим «дёрн, зелёный луг» (иранизм, широко в тюркских языках
+      Средней Азии) + кент «город» (согд. kanθ). Форма Чимкент фиксируется
+      с XV в.
+    reliability: medium
+    source: koichubaev-1974
+historical_forms:
+  - form: Чимкент
+    script: arabic
+    language: persian
+    from: 1425
+    attested: 1425
+    note: «Зафар-наме» Шараф ад-дина Йазди, описание походов Тимура. Проверить издание.
+  - form: Чимкент
+    script: cyrillic
+    language: russian
+    from: 1864
+    to: 1992
+    official: true
+  - form: Шымкент
+    script: cyrillic
+    language: kazakh
+    from: 1992
+    to: null
+    official: true
+commons_categories:
+  - History of Shymkent
+  - Shymkent by year
+sources: [koichubaev-1974, pospelov-2002]
+links:
+  wikidata: Q485496

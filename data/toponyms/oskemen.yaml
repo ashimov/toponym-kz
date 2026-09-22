@@ -1,0 +1,50 @@
+id: oskemen
+names:
+  kk_cyr: Өскемен
+  kk_lat: Óskemen
+  ru: Усть-Каменогорск
+  en: Oskemen
+type: city
+coords: [49.9714, 82.6059]
+region: KZ-63
+layer: russian
+status: draft
+etymology:
+  - gloss: «устье Каменных гор»
+    language: russian
+    analysis: >-
+      Крепость Усть-Каменная заложена в 1720 г. там, где Иртыш выходит из
+      гор («Каменных гор»). Каз. Өскемен — фонетическая адаптация
+      «Усть-Камен(ь)», не имеет самостоятельной казахской этимологии.
+    reliability: high
+    source: pospelov-2002
+  - gloss: Өскемен ← өс- «расти» + кемен «корабль»
+    language: kazakh
+    analysis: Народная этимология, возникшая уже на базе адаптированной формы.
+    reliability: folk
+    source: null
+historical_forms:
+  - form: Усть-Каменная крепость
+    script: cyrillic
+    language: russian
+    from: 1720
+    to: 1868
+    official: true
+  - form: Усть-Каменогорск
+    script: cyrillic
+    language: russian
+    from: 1868
+    to: null
+    official: true
+  - form: Өскемен
+    script: cyrillic
+    language: kazakh
+    from: 1800
+    to: null
+    official: true
+    note: Казахская форма; официальна наряду с русской.
+commons_categories:
+  - History of Oskemen
+sources: [pospelov-2002]
+links:
+  wikidata: Q162548

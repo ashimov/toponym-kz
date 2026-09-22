@@ -1,0 +1,41 @@
+id: aktobe
+names:
+  kk_cyr: Ақтөбе
+  kk_lat: Aqtóbe
+  ru: Актобе
+  en: Aktobe
+type: city
+coords: [50.2839, 57.1670]
+region: KZ-15
+layer: turkic
+status: draft
+etymology:
+  - gloss: «белый холм»
+    language: kazakh
+    analysis: >-
+      Ақ «белый» + төбе «холм, вершина». По возвышенности, на которой
+      в 1869 г. заложено укрепление.
+    reliability: high
+    source: konkashpaev-1963
+historical_forms:
+  - form: Актюбинское укрепление
+    script: cyrillic
+    language: russian
+    from: 1869
+    to: 1891
+    official: true
+  - form: Актюбинск
+    script: cyrillic
+    language: russian
+    from: 1891
+    to: 1999
+    official: true
+  - form: Ақтөбе
+    script: cyrillic
+    language: kazakh
+    from: 1999
+    to: null
+    official: true
+sources: [konkashpaev-1963]
+links:
+  wikidata: Q477232

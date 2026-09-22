@@ -1,0 +1,49 @@
+id: mangystau
+names:
+  kk_cyr: Маңғыстау
+  kk_lat: Mańǵystaý
+  ru: Мангистау (Мангышлак)
+  en: Mangystau
+type: region
+coords: [43.9, 52.5]
+region: KZ-47
+layer: unknown
+status: draft
+etymology:
+  - gloss: «тысяча зимовок» (мың қыстау)
+    language: kazakh
+    analysis: >-
+      Мың «тысяча» + қыстау «зимовка». Широко распространено, но не
+      объясняет старую форму Мангышлак и требует нерегулярных переходов.
+    reliability: folk
+    source: null
+  - gloss: от этнонима (мангыт / мангышлы) + тау / лак
+    language: turkic
+    analysis: >-
+      Первая часть связывается с этнонимом (мангыт, ногайский компонент),
+      вторая — с тау «гора» или суффиксом -лак. Обсуждается в литературе.
+    reliability: low
+    source: koichubaev-1974
+historical_forms:
+  - form: Сиях-Кух (سیاه‌کوه)
+    script: arabic
+    language: persian
+    from: 900
+    to: 1200
+    note: «Чёрная гора» у арабо-персидских географов X в. (Истахри, Ибн Хаукаль).
+  - form: Мангышлак
+    script: cyrillic
+    language: russian
+    from: 1600
+    to: 1990
+    official: true
+  - form: Маңғыстау
+    script: cyrillic
+    language: kazakh
+    from: 1990
+    to: null
+    official: true
+sources: [koichubaev-1974, murzaev-1984]
+links:
+  wikidata: Q1474188
+notes: Найти первую фиксацию формы Мангышлак в русских источниках.

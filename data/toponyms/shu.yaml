@@ -1,0 +1,40 @@
+id: shu
+names:
+  kk_cyr: Шу
+  kk_lat: Shý
+  ru: Чу
+  en: Chu
+type: river
+coords: [44.2, 73.0]
+layer: unknown
+status: draft
+etymology:
+  - gloss: этимология не установлена
+    language: unknown
+    analysis: >-
+      Известна с раннего средневековья (Суяб на Чу, китайск. 碎葉). Версии:
+      тюрк. су «вода» (не объясняет форму), тибетское чу «вода, река»
+      (семантически сильно, но исторически спорно).
+    reliability: medium
+    source: murzaev-1984
+  - gloss: тибет. chu «вода, река»
+    language: tibetan
+    analysis: Тибетский географический термин; для Семиречья требует объяснения пути заимствования.
+    reliability: low
+    source: murzaev-1984
+historical_forms:
+  - form: Чу
+    script: cyrillic
+    language: russian
+    from: 1850
+    to: null
+    official: true
+  - form: Шу
+    script: cyrillic
+    language: kazakh
+    from: 1900
+    to: null
+    official: true
+links:
+  wikidata: Q524206
+sources: [murzaev-1984]

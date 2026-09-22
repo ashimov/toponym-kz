@@ -1,0 +1,41 @@
+id: talas
+names:
+  kk_cyr: Талас
+  kk_lat: Talas
+  ru: Талас
+  en: Talas
+type: river
+coords: [43.2, 70.9]
+layer: unknown
+status: draft
+etymology:
+  - gloss: этимология не установлена
+    language: unknown
+    analysis: >-
+      Один из древнейших гидронимов региона: Талас у Менандра (568 г.),
+      Таласская битва 751 г. Связь с названием города Тараз очевидна,
+      направление переноса (река → город или наоборот) обсуждается.
+    reliability: medium
+    source: pospelov-2002
+historical_forms:
+  - form: Τάλας
+    script: greek
+    language: greek
+    from: 568
+    attested: 568
+    source: menander
+  - form: طلاس (Талас)
+    script: arabic
+    language: arabic
+    from: 750
+    to: 1500
+    note: Арабские источники о битве 751 г.
+  - form: Талас
+    script: cyrillic
+    language: russian
+    from: 1850
+    to: null
+    official: true
+links:
+  wikidata: Q745859
+sources: [menander, pospelov-2002]

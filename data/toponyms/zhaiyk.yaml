@@ -1,0 +1,65 @@
+id: zhaiyk
+names:
+  kk_cyr: Жайық
+  kk_lat: Jaiyq
+  ru: Урал
+  en: Ural River
+type: river
+coords: [51.2, 51.37]
+layer: turkic
+status: draft
+etymology:
+  - gloss: «разливающаяся, широкая»
+    language: turkic
+    analysis: >-
+      Др.-тюрк. jaj- «расстилать, разливаться» (ДТС); ср. каз. жайылу
+      «разливаться». Жайық — «разливающаяся река». Русск. Яик — прямая
+      передача тюркской формы.
+    reliability: high
+    source: dts-1969
+  - gloss: Урал — перенос названия гор
+    language: russian
+    analysis: >-
+      Переименована указом Екатерины II в 1775 г. после подавления восстания
+      Пугачёва, чтобы стереть память о Яицком казачестве. Название взято от
+      Уральских гор.
+    reliability: high
+    source: pospelov-2002
+    note: Относится к форме Урал.
+historical_forms:
+  - form: Δάϊξ (Даикс)
+    script: greek
+    language: greek
+    from: 150
+    attested: 150
+    note: Птолемей, II в.; отождествление с Яиком принято, но условно.
+  - form: Jayïq
+    script: arabic
+    language: turkic
+    from: 1074
+    attested: 1074
+    source: kashgari-2005
+    note: Проверить наличие формы у Кашгари.
+  - form: Яик
+    script: cyrillic
+    language: russian
+    from: 1550
+    to: 1775
+    official: true
+    source: bkch-1627
+  - form: Урал
+    script: cyrillic
+    language: russian
+    from: 1775
+    to: null
+    official: true
+  - form: Жайық
+    script: cyrillic
+    language: kazakh
+    from: 1500
+    to: null
+    official: true
+    note: Казахская форма непрерывна; официальна в РК.
+sources: [dts-1969, pospelov-2002, bkch-1627, kashgari-2005]
+links:
+  wikidata: Q80240

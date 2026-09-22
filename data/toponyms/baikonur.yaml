@@ -1,0 +1,54 @@
+id: baikonur
+names:
+  kk_cyr: Байқоңыр
+  kk_lat: Baiqońyr
+  ru: Байконур
+  en: Baikonur
+type: city
+coords: [45.6167, 63.3167]
+region: KZ-43
+layer: turkic
+status: draft
+etymology:
+  - gloss: «богатая бурая (местность)»
+    language: kazakh
+    analysis: >-
+      Бай «богатый, обильный» + қоңыр «бурый, коричневый; также мягкий,
+      благоприятный». Исходно — название посёлка в Улытауской области,
+      примерно в 300 км к северо-востоку от космодрома. В 1961 г. название
+      использовано для дезинформации о местоположении космодрома, в 1995 г.
+      перенесено на город Ленинск.
+    reliability: medium
+    source: koichubaev-1974
+historical_forms:
+  - form: Заря
+    script: cyrillic
+    language: russian
+    from: 1955
+    to: 1958
+    official: true
+    note: Посёлок строителей полигона.
+  - form: Ленинский
+    script: cyrillic
+    language: russian
+    from: 1958
+    to: 1966
+    official: true
+  - form: Ленинск
+    script: cyrillic
+    language: russian
+    from: 1966
+    to: 1995
+    official: true
+  - form: Байқоңыр
+    script: cyrillic
+    language: kazakh
+    from: 1995
+    to: null
+    official: true
+commons_categories:
+  - History of Baikonur
+sources: [koichubaev-1974]
+links:
+  wikidata: Q165413
+notes: Проверить значение қоңыр в топонимическом употреблении у Конкашпаева.

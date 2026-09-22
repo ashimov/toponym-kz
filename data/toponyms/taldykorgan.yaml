@@ -1,0 +1,42 @@
+id: taldykorgan
+names:
+  kk_cyr: Талдықорған
+  kk_lat: Taldyqorǵan
+  ru: Талдыкорган
+  en: Taldykorgan
+type: city
+coords: [45.0167, 78.3667]
+region: KZ-33
+layer: turkic
+status: draft
+etymology:
+  - gloss: «ивовая ограда / курган с ивами»
+    language: kazakh
+    analysis: >-
+      Тал «ива, тальник» + -ды (обладание) + қорған «ограда, крепость;
+      курган». Возможны оба чтения второго компонента.
+    reliability: medium
+    source: koichubaev-1974
+historical_forms:
+  - form: Гавриловка
+    script: cyrillic
+    language: russian
+    from: 1868
+    to: 1920
+    official: true
+    note: Переселенческое село.
+  - form: Талды-Курган
+    script: cyrillic
+    language: russian
+    from: 1920
+    to: 1993
+    official: true
+  - form: Талдықорған
+    script: cyrillic
+    language: kazakh
+    from: 1993
+    to: null
+    official: true
+sources: [koichubaev-1974]
+links:
+  wikidata: Q491102

@@ -1,0 +1,39 @@
+id: kokshetau
+names:
+  kk_cyr: Көкшетау
+  kk_lat: Kókshetaý
+  ru: Кокшетау
+  en: Kokshetau
+type: city
+coords: [53.2833, 69.3833]
+region: KZ-11
+layer: turkic
+status: draft
+etymology:
+  - gloss: «синеватая гора»
+    language: kazakh
+    analysis: >-
+      Көк «синий, зелёный» + -ше (уменьшительно-ослабляющий аффикс) + тау
+      «гора»: «синеватые горы». Название горного массива, перенесённое
+      на город (1824 г.).
+    reliability: high
+    source: konkashpaev-1963
+historical_forms:
+  - form: Кокчетав
+    script: cyrillic
+    language: russian
+    from: 1824
+    to: 1993
+    official: true
+    note: Окружной приказ с 1824 г.
+  - form: Көкшетау
+    script: cyrillic
+    language: kazakh
+    from: 1993
+    to: null
+    official: true
+commons_categories:
+  - History of Kokshetau
+sources: [konkashpaev-1963]
+links:
+  wikidata: Q490643

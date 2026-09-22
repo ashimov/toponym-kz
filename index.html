@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Топонимы Казахстана</title>
+    <meta name="description" content="Карта топонимов Казахстана: происхождение названий, исторические формы, источники" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <aside id="panel">
+        <header class="panel-head">
+          <h1>Топонимы Казахстана</h1>
+          <p class="sub">Происхождение названий · исторические формы · источники</p>
+        </header>
+
+        <section class="controls">
+          <input id="search" type="search" placeholder="Поиск: Атырау, Иртыш, Гурьев…" autocomplete="off" />
+
+          <div class="year-row">
+            <label for="year">Год <output id="year-out">сегодня</output></label>
+            <input id="year" type="range" min="500" max="2026" step="1" value="2026" />
+            <div class="year-ticks"><span>500</span><span>1000</span><span>1500</span><span>2026</span></div>
+          </div>
+
+          <details class="filters" open>
+            <summary>Фильтры</summary>
+            <div class="chips" id="type-chips"></div>
+            <div class="chips" id="layer-chips"></div>
+          </details>
+        </section>
+
+        <div class="tabs">
+          <button class="tab" data-tab="list" aria-pressed="true">Топонимы</button>
+          <button class="tab" data-tab="chronicle" aria-pressed="false">Хроника переименований</button>
+        </div>
+        <section id="list" class="list"></section>
+        <section id="chronicle" class="list" hidden></section>
+        <section id="card" class="card" hidden></section>
+
+        <footer class="panel-foot">
+          <span id="stats"></span>
+          <span>Границы: © OpenStreetMap, ODbL</span>
+        </footer>
+      </aside>
+
+      <main id="map-wrap">
+        <div id="map"></div>
+        <div id="legend" class="legend"></div>
+        <button id="panel-toggle" class="panel-toggle" aria-label="Панель">☰</button>
+      </main>
+    </div>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

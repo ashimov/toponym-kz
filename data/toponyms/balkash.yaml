@@ -1,0 +1,30 @@
+id: balkash
+names:
+  kk_cyr: Балқаш
+  kk_lat: Balqash
+  ru: Балхаш
+  en: Balkhash
+type: lake
+coords: [46.5, 74.5]
+layer: turkic
+status: draft
+etymology:
+  - gloss: «болотистое место, топь с кочками»
+    language: turkic
+    analysis: >-
+      Каз. диал. балқаш «кочковатое болото, топкое место»; ср. тат. балкаш.
+      Термин описывает заболоченные южные и западные берега озера.
+    reliability: high
+    source: murzaev-1984
+historical_forms:
+  - form: Балхаш
+    script: cyrillic
+    language: russian
+    from: 1750
+    to: null
+    official: true
+    note: На русских картах с XVIII в. Точную первую фиксацию уточнить.
+sources: [murzaev-1984, konkashpaev-1963]
+links:
+  wikidata: Q134485
+notes: Найти китайские и джунгарские формы названия (XVIII в.).

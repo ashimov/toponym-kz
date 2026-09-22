@@ -1,0 +1,51 @@
+id: oral
+names:
+  kk_cyr: Орал
+  kk_lat: Oral
+  ru: Уральск
+  en: Oral
+type: city
+coords: [51.2333, 51.3667]
+region: KZ-27
+layer: russian
+status: draft
+etymology:
+  - gloss: «город на Урале (Яике)»
+    language: russian
+    analysis: >-
+      Основан яицкими казаками как Яицкий городок. В 1775 г. вместе с рекой
+      переименован Екатериной II в Уральск после восстания Пугачёва.
+      Каз. Орал — адаптация названия реки Урал; исторически казахи
+      называли город Теке.
+    reliability: high
+    source: pospelov-2002
+historical_forms:
+  - form: Яицкий городок
+    script: cyrillic
+    language: russian
+    from: 1613
+    to: 1775
+    official: true
+    note: Дата основания дискуссионна (1584–1613).
+  - form: Теке
+    script: cyrillic
+    language: kazakh
+    from: 1700
+    to: 1991
+    official: false
+    note: Казахское народное название; происхождение (теке «козёл»; личное имя?) требует проверки.
+  - form: Уральск
+    script: cyrillic
+    language: russian
+    from: 1775
+    to: null
+    official: true
+  - form: Орал
+    script: cyrillic
+    language: kazakh
+    from: 1991
+    to: null
+    official: true
+sources: [pospelov-2002]
+links:
+  wikidata: Q487439

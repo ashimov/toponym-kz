@@ -1,0 +1,36 @@
+id: tobyl
+names:
+  kk_cyr: Тобыл
+  kk_lat: Tobyl
+  ru: Тобол
+  en: Tobol
+type: river
+coords: [53.2, 63.6]
+layer: turkic
+status: draft
+etymology:
+  - gloss: неясно; от тюркского этнонима или термина
+    language: turkic
+    analysis: >-
+      Связывали с сибирско-татарским этнонимом/названием Тоболак,
+      с тюрк. тобул «полный, обильный». Русская форма Тобол — с XVI в.
+      (Тобольск, 1587).
+    reliability: low
+    source: murzaev-1984
+historical_forms:
+  - form: Тобол
+    script: cyrillic
+    language: russian
+    from: 1580
+    to: null
+    official: true
+    source: bkch-1627
+  - form: Тобыл
+    script: cyrillic
+    language: kazakh
+    from: 1700
+    to: null
+    official: true
+links:
+  wikidata: Q124653
+sources: [murzaev-1984, bkch-1627]

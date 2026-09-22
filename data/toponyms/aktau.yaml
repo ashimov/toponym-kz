@@ -1,0 +1,43 @@
+id: aktau
+names:
+  kk_cyr: Ақтау
+  kk_lat: Aqtaý
+  ru: Актау
+  en: Aktau
+type: city
+coords: [43.65, 51.2]
+region: KZ-47
+layer: turkic
+status: draft
+etymology:
+  - gloss: «белая гора»
+    language: kazakh
+    analysis: >-
+      Ақ «белый» + тау «гора»: по белым известняковым и меловым обрывам
+      побережья Мангышлака.
+    reliability: high
+    source: konkashpaev-1963
+historical_forms:
+  - form: Актау
+    script: cyrillic
+    language: russian
+    from: 1963
+    to: 1964
+    official: true
+    note: Посёлок при добыче урана.
+  - form: Шевченко
+    script: cyrillic
+    language: russian
+    from: 1964
+    to: 1991
+    official: true
+    note: В честь Т. Шевченко, отбывавшего ссылку на Мангышлаке.
+  - form: Ақтау
+    script: cyrillic
+    language: kazakh
+    from: 1991
+    to: null
+    official: true
+sources: [konkashpaev-1963]
+links:
+  wikidata: Q198989

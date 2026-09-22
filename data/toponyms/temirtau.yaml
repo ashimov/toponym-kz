@@ -1,0 +1,39 @@
+id: temirtau
+names:
+  kk_cyr: Теміртау
+  kk_lat: Temirtaý
+  ru: Темиртау
+  en: Temirtau
+type: city
+coords: [50.05, 72.95]
+region: KZ-35
+layer: soviet
+status: draft
+etymology:
+  - gloss: «железная гора»
+    language: kazakh (советское образование)
+    analysis: >-
+      Темір «железо» + тау «гора». Дано в 1945 г. при получении статуса
+      города как «казахстанская Магнитка»: тюркский материал, советская
+      мотивация по металлургическому комбинату.
+    reliability: high
+    source: pospelov-2002
+historical_forms:
+  - form: Самаркандский
+    script: cyrillic
+    language: russian
+    from: 1909
+    to: 1945
+    official: true
+    note: Посёлок переселенцев из Самарской губернии; название по ошибке связывают с Самаркандом.
+  - form: Теміртау
+    script: cyrillic
+    language: kazakh
+    from: 1945
+    to: null
+    official: true
+commons_categories:
+  - History of Temirtau
+sources: [pospelov-2002]
+links:
+  wikidata: Q1001104

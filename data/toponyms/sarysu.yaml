@@ -1,0 +1,28 @@
+id: sarysu
+names:
+  kk_cyr: Сарысу
+  kk_lat: Sarysý
+  ru: Сарысу
+  en: Sarysu
+type: river
+coords: [46.5, 68.0]
+layer: turkic
+status: draft
+etymology:
+  - gloss: «жёлтая вода»
+    language: kazakh
+    analysis: >-
+      Сары «жёлтый» + су «вода»: по мутной, желтоватой воде степной реки.
+      Прозрачная тюркская модель, ср. Қарасу, Ақсу.
+    reliability: high
+    source: konkashpaev-1963
+historical_forms:
+  - form: Сары-Су
+    script: cyrillic
+    language: russian
+    from: 1800
+    to: null
+    official: true
+links:
+  wikidata: Q32210734
+sources: [konkashpaev-1963]

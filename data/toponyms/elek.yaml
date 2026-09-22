@@ -1,0 +1,29 @@
+id: elek
+names:
+  kk_cyr: Елек
+  kk_lat: Elek
+  ru: Илек
+  en: Ilek
+type: river
+coords: [50.3, 57.2]
+layer: turkic
+status: draft
+etymology:
+  - gloss: «косуля» или «сито»?
+    language: kazakh
+    analysis: >-
+      Каз. елік «косуля» (по обилию дичи) либо елек «сито» (по извилистому
+      руслу с протоками) — обе версии семантически слабы. Возможно
+      дотюркское.
+    reliability: low
+    source: koichubaev-1974
+historical_forms:
+  - form: Илек
+    script: cyrillic
+    language: russian
+    from: 1700
+    to: null
+    official: true
+links:
+  wikidata: Q598256
+sources: [koichubaev-1974]

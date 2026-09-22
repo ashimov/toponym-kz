@@ -1,0 +1,32 @@
+id: ile-alatau
+names:
+  kk_cyr: Іле Алатауы
+  kk_lat: Ile Alataýy
+  ru: Заилийский Алатау
+  en: Trans-Ili Alatau
+type: range
+coords: [43.05, 77.0]
+region: KZ-19
+layer: turkic
+status: draft
+etymology:
+  - gloss: «пёстрые горы (за) Или»
+    language: kazakh
+    analysis: >-
+      Ала «пёстрый» + тау «гора»: горы с чередованием снежных вершин,
+      скал и лесов. Іле — по реке Или (этимология гидронима отдельная).
+      Русск. «Заилийский» — калька положения «за Или» с точки зрения
+      подходивших с севера.
+    reliability: high
+    source: murzaev-1984
+historical_forms:
+  - form: Заилийский Алатау
+    script: cyrillic
+    language: russian
+    from: 1850
+    to: null
+    official: true
+    note: Первая русская фиксация уточнить (Семёнов-Тян-Шанский, 1856–1857).
+sources: [murzaev-1984]
+links:
+  wikidata: Q634401

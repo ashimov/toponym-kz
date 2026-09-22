@@ -1,0 +1,41 @@
+id: esil
+names:
+  kk_cyr: Есіл
+  kk_lat: Esil
+  ru: Ишим
+  en: Ishim
+type: river
+coords: [51.2, 71.4]
+layer: turkic
+status: draft
+etymology:
+  - gloss: «мутная, разливающаяся» или от личного имени
+    language: turkic
+    analysis: >-
+      Русск. Ишим — из тат./сиб.-тат. формы. Версия от др.-тюрк. ешил/йашил
+      «зелёный» (ср. каз. жасыл) — по цвету воды; версия от имени хана Ишима
+      (Есим) — народная, поскольку гидроним старше.
+    reliability: medium
+    source: konkashpaev-1963
+  - gloss: от имени хана Есима
+    language: kazakh
+    analysis: Народная этимология; гидроним засвидетельствован раньше XVII в.
+    reliability: folk
+    source: null
+historical_forms:
+  - form: Ишим
+    script: cyrillic
+    language: russian
+    from: 1600
+    to: null
+    official: true
+    source: bkch-1627
+  - form: Есіл
+    script: cyrillic
+    language: kazakh
+    from: 1700
+    to: null
+    official: true
+links:
+  wikidata: Q191524
+sources: [konkashpaev-1963, bkch-1627]
