@@ -35,6 +35,8 @@ etymology:
       литературе, но морфологически слабее.
     reliability: folk
     source: null
+morphemes:
+  - { form: "астана", gloss: "столица (перс. āstāne)", kind: word }
 historical_forms:
   - form: Ақмола
     script: cyrillic

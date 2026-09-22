@@ -17,6 +17,8 @@ etymology:
       участок между рукавами реки». Город стоит в дельте Жайыка (Урала).
     reliability: high
     source: konkashpaev-1963
+morphemes:
+  - { form: "атырау", gloss: "дельта, устье", kind: term }
 historical_forms:
   - form: Гурьев городок
     script: cyrillic

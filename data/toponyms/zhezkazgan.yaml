@@ -17,6 +17,10 @@ etymology:
       Древние медные выработки известны здесь с эпохи бронзы.
     reliability: high
     source: konkashpaev-1963
+morphemes:
+  - { form: "жез", gloss: "медь", kind: root }
+  - { form: "қаз-", gloss: "копать", kind: root }
+  - { form: "-ған", gloss: "причастие прошедшего времени", kind: suffix }
 historical_forms:
   - form: Джезказган
     script: cyrillic

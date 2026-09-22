@@ -16,6 +16,9 @@ etymology:
       Прозрачная тюркская модель, ср. Қарасу, Ақсу.
     reliability: high
     source: konkashpaev-1963
+morphemes:
+  - { form: "сары", gloss: "жёлтый", kind: root }
+  - { form: "су", gloss: "вода", kind: term }
 historical_forms:
   - form: Сары-Су
     script: cyrillic

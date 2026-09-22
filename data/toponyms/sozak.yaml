@@ -1,0 +1,42 @@
+id: sozak
+names:
+  kk_cyr: Созақ
+  kk_lat: Sozaq
+  ru: Сузак
+  en: Sozak
+type: village
+coords: [44.14, 68.47]
+region: KZ-61
+layer: unknown
+status: draft
+etymology:
+  - gloss: этимология не установлена
+    language: unknown
+    analysis: >-
+      Средневековый город (Сузак) на северных склонах Каратау, известен
+      с XI–XII вв.; столица казахских ханов в XVI в. Происхождение названия
+      не выяснено.
+    reliability: medium
+    source: pospelov-2002
+historical_forms:
+  - form: Сузак
+    script: arabic
+    language: persian
+    from: 1100
+    to: 1800
+    note: Персидские источники XVI в. (Фазлаллах ибн Рузбихан).
+  - form: Сузак
+    script: cyrillic
+    language: russian
+    from: 1864
+    to: 1993
+    official: true
+  - form: Созақ
+    script: cyrillic
+    language: kazakh
+    from: 1993
+    to: null
+    official: true
+links:
+  wikidata: Q4445604
+sources: [pospelov-2002]

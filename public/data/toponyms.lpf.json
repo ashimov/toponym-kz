@@ -3,6 +3,105 @@
  "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places-format/main/linkedplaces-context-v1.1.jsonld",
  "features": [
   {
+   "@id": "https://toponym.kz/place/aksu-zhabagly",
+   "type": "Feature",
+   "properties": {
+    "title": "Ақсу-Жабағылы",
+    "ccodes": [
+     "KZ"
+    ],
+    "fclasses": [
+     "T"
+    ]
+   },
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1926"
+      }
+     }
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Ақсу-Жабағылы",
+     "lang": "kk"
+    },
+    {
+     "toponym": "Aqsý-Jabaǵyly",
+     "lang": "kk-Latn"
+    },
+    {
+     "toponym": "Аксу-Жабаглы",
+     "lang": "ru"
+    },
+    {
+     "toponym": "Aksu-Zhabagly",
+     "lang": "en"
+    },
+    {
+     "toponym": "Аксу-Джабаглы",
+     "lang": "ru",
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1926"
+        },
+        "end": {
+         "in": "1993"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Ақсу-Жабағылы",
+     "lang": "kk",
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1993"
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "types": [
+    {
+     "identifier": "http://vocab.getty.edu/aat/300008347",
+     "label": "inhabited places"
+    }
+   ],
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     70.5,
+     42.4
+    ]
+   },
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.wikidata.org/entity/Q1765261"
+    }
+   ],
+   "descriptions": [
+    {
+     "value": "[medium] Ақсу — «белая вода»; Жабағылы — «(место) с жеребятами-годовиками» — Заповедник (1926, старейший в Средней Азии) назван по двум рекам. Ақсу: ақ «белый» + су «вода» — мутно-белая ледниковая вода. Жабағылы: жабағы «жеребёнок-годовик; свалявшаяся шерсть» + -лы — мотивация неясна, возможно по пастбищам.",
+     "lang": "ru",
+     "citations": [
+      {
+       "label": "Койчубаев Е.. Краткий толковый словарь топонимов Казахстана. 1974"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "@id": "https://toponym.kz/place/aktau",
    "type": "Feature",
    "properties": {
@@ -465,6 +564,172 @@
    ]
   },
   {
+   "@id": "https://toponym.kz/place/arys-kalasy",
+   "type": "Feature",
+   "properties": {
+    "title": "Арыс (қала)",
+    "ccodes": [
+     "KZ"
+    ],
+    "fclasses": [
+     "P"
+    ]
+   },
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1904"
+      }
+     }
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Арыс (қала)",
+     "lang": "kk"
+    },
+    {
+     "toponym": "Arys",
+     "lang": "kk-Latn"
+    },
+    {
+     "toponym": "Арысь (город)",
+     "lang": "ru"
+    },
+    {
+     "toponym": "Arys (city)",
+     "lang": "en"
+    },
+    {
+     "toponym": "Арысь",
+     "lang": "ru",
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1904"
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "types": [
+    {
+     "identifier": "http://vocab.getty.edu/aat/300008389",
+     "label": "cities"
+    }
+   ],
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.81,
+     42.43
+    ]
+   },
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.wikidata.org/entity/Q718108"
+    }
+   ],
+   "descriptions": [
+    {
+     "value": "[high] по реке Арыс — Город назван по реке (см. карточку arys); возник как станция в 1900-х при строительстве Оренбург-Ташкентской железной дороги.",
+     "lang": "ru",
+     "citations": [
+      {
+       "label": "Койчубаев Е.. Краткий толковый словарь топонимов Казахстана. 1974"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "@id": "https://toponym.kz/place/arys",
+   "type": "Feature",
+   "properties": {
+    "title": "Арыс",
+    "ccodes": [
+     "KZ"
+    ],
+    "fclasses": [
+     "H"
+    ]
+   },
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1860"
+      }
+     }
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Арыс",
+     "lang": "kk"
+    },
+    {
+     "toponym": "Arys",
+     "lang": "kk-Latn"
+    },
+    {
+     "toponym": "Арысь",
+     "lang": "ru"
+    },
+    {
+     "toponym": "Arys",
+     "lang": "en"
+    },
+    {
+     "toponym": "Арысь",
+     "lang": "ru",
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1860"
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "types": [
+    {
+     "identifier": "http://vocab.getty.edu/aat/300008707",
+     "label": "rivers"
+    }
+   ],
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.7,
+     42.6
+    ]
+   },
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.wikidata.org/entity/Q2622025"
+    }
+   ],
+   "descriptions": [
+    {
+     "value": "[low] этимология не установлена — Сближают с каз. арыс «оглобля; крупный, могучий» и с древним названием родового объединения (арыс «подразделение жуза»). Возможно дотюркское.",
+     "lang": "ru",
+     "citations": [
+      {
+       "label": "Койчубаев Е.. Краткий толковый словарь топонимов Казахстана. 1974"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "@id": "https://toponym.kz/place/astana",
    "type": "Feature",
    "properties": {
@@ -784,6 +1049,89 @@
      "citations": [
       {
        "label": "Конкашпаев Г. К.. Словарь казахских географических названий. 1963"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "@id": "https://toponym.kz/place/badam",
+   "type": "Feature",
+   "properties": {
+    "title": "Бадам",
+    "ccodes": [
+     "KZ"
+    ],
+    "fclasses": [
+     "H"
+    ]
+   },
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1870"
+      }
+     }
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Бадам",
+     "lang": "kk"
+    },
+    {
+     "toponym": "Badam",
+     "lang": "kk-Latn"
+    },
+    {
+     "toponym": "Бадам",
+     "lang": "ru"
+    },
+    {
+     "toponym": "Badam",
+     "lang": "en"
+    },
+    {
+     "toponym": "Бадам",
+     "lang": "ru",
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1870"
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "types": [
+    {
+     "identifier": "http://vocab.getty.edu/aat/300008707",
+     "label": "rivers"
+    }
+   ],
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     69.3,
+     42.3
+    ]
+   },
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.wikidata.org/entity/Q4840551"
+    }
+   ],
+   "descriptions": [
+    {
+     "value": "[medium] «миндаль» — Перс. бāдāм «миндаль» — по миндальным зарослям в долине. Река у Шымкента.",
+     "lang": "ru",
+     "citations": [
+      {
+       "label": "Койчубаев Е.. Краткий толковый словарь топонимов Казахстана. 1974"
       }
      ]
     }
@@ -1785,6 +2133,89 @@
    ]
   },
   {
+   "@id": "https://toponym.kz/place/karatau",
+   "type": "Feature",
+   "properties": {
+    "title": "Қаратау",
+    "ccodes": [
+     "KZ"
+    ],
+    "fclasses": [
+     "T"
+    ]
+   },
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1800"
+      }
+     }
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Қаратау",
+     "lang": "kk"
+    },
+    {
+     "toponym": "Qarataý",
+     "lang": "kk-Latn"
+    },
+    {
+     "toponym": "Каратау",
+     "lang": "ru"
+    },
+    {
+     "toponym": "Karatau",
+     "lang": "en"
+    },
+    {
+     "toponym": "Каратау",
+     "lang": "ru",
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1800"
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "types": [
+    {
+     "identifier": "http://vocab.getty.edu/aat/300008795",
+     "label": "mountains"
+    }
+   ],
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     69,
+     43.7
+    ]
+   },
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.wikidata.org/entity/Q2062939"
+    }
+   ],
+   "descriptions": [
+    {
+     "value": "[high] «чёрные горы» — Қара «чёрный» + тау «гора». В тюркской оронимии «чёрными» называют невысокие, бесснежные, тёмные от растительности горы в противоположность «белым» (ақ) снежным.",
+     "lang": "ru",
+     "citations": [
+      {
+       "label": "Мурзаев Э. М.. Словарь народных географических терминов. 1984"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "@id": "https://toponym.kz/place/kaspiy",
    "type": "Feature",
    "properties": {
@@ -1915,6 +2346,275 @@
      "citations": [
       {
        "label": "Поспелов Е. М.. Географические названия мира. Топонимический словарь. 2002"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "@id": "https://toponym.kz/place/kazygurt",
+   "type": "Feature",
+   "properties": {
+    "title": "Қазығұрт",
+    "ccodes": [
+     "KZ"
+    ],
+    "fclasses": [
+     "T"
+    ]
+   },
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1850"
+      }
+     }
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Қазығұрт",
+     "lang": "kk"
+    },
+    {
+     "toponym": "Qazyǵurt",
+     "lang": "kk-Latn"
+    },
+    {
+     "toponym": "Казыгурт",
+     "lang": "ru"
+    },
+    {
+     "toponym": "Kazygurt",
+     "lang": "en"
+    },
+    {
+     "toponym": "Казыгурт",
+     "lang": "ru",
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1850"
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "types": [
+    {
+     "identifier": "http://vocab.getty.edu/aat/300008795",
+     "label": "mountains"
+    }
+   ],
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     69.42,
+     41.75
+    ]
+   },
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.wikidata.org/entity/Q16657046"
+    }
+   ],
+   "descriptions": [
+    {
+     "value": "[medium] этимология не установлена — Сакральная гора, где по казахскому преданию остановился ковчег Нуха. Предлагались тюркские (қазық «кол» + -ұрт?), иранские и субстратные объяснения; ни одно не общепринято.",
+     "lang": "ru",
+     "citations": [
+      {
+       "label": "Койчубаев Е.. Краткий толковый словарь топонимов Казахстана. 1974"
+      }
+     ]
+    },
+    {
+     "value": "[folk] қазы «конская колбаса» + құрт «сушёный творог» — Народная этимология по созвучию с названиями блюд.",
+     "lang": "ru"
+    }
+   ]
+  },
+  {
+   "@id": "https://toponym.kz/place/keles",
+   "type": "Feature",
+   "properties": {
+    "title": "Келес",
+    "ccodes": [
+     "KZ"
+    ],
+    "fclasses": [
+     "H"
+    ]
+   },
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1870"
+      }
+     }
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Келес",
+     "lang": "kk"
+    },
+    {
+     "toponym": "Keles",
+     "lang": "kk-Latn"
+    },
+    {
+     "toponym": "Келес",
+     "lang": "ru"
+    },
+    {
+     "toponym": "Keles",
+     "lang": "en"
+    },
+    {
+     "toponym": "Келес",
+     "lang": "ru",
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1870"
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "types": [
+    {
+     "identifier": "http://vocab.getty.edu/aat/300008707",
+     "label": "rivers"
+    }
+   ],
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     69.4,
+     41.6
+    ]
+   },
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.wikidata.org/entity/Q3491252"
+    }
+   ],
+   "descriptions": [
+    {
+     "value": "[low] этимология не установлена — Правый приток Сырдарьи. Сближение с каз. келес «приходящий» (от кел- «приходить») не подтверждено.",
+     "lang": "ru",
+     "citations": [
+      {
+       "label": "Койчубаев Е.. Краткий толковый словарь топонимов Казахстана. 1974"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "@id": "https://toponym.kz/place/kentau",
+   "type": "Feature",
+   "properties": {
+    "title": "Кентау",
+    "ccodes": [
+     "KZ"
+    ],
+    "fclasses": [
+     "P"
+    ]
+   },
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1940"
+      }
+     }
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Кентау",
+     "lang": "kk"
+    },
+    {
+     "toponym": "Kentaý",
+     "lang": "kk-Latn"
+    },
+    {
+     "toponym": "Кентау",
+     "lang": "ru"
+    },
+    {
+     "toponym": "Kentau",
+     "lang": "en"
+    },
+    {
+     "toponym": "Миргалимсай",
+     "lang": "kk",
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1940"
+        },
+        "end": {
+         "in": "1955"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Кентау",
+     "lang": "kk",
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1955"
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "types": [
+    {
+     "identifier": "http://vocab.getty.edu/aat/300008389",
+     "label": "cities"
+    }
+   ],
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.51,
+     43.52
+    ]
+   },
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.wikidata.org/entity/Q1315249"
+    }
+   ],
+   "descriptions": [
+    {
+     "value": "[high] «рудная гора» — Кен «руда, рудник» + тау «гора». Город построен в 1955 г. при Ачисайском полиметаллическом комбинате; название дано при основании.",
+     "lang": "ru",
+     "citations": [
+      {
+       "label": "Койчубаев Е.. Краткий толковый словарь топонимов Казахстана. 1974"
       }
      ]
     }
@@ -2293,6 +2993,89 @@
      "citations": [
       {
        "label": "Койчубаев Е.. Краткий толковый словарь топонимов Казахстана. 1974"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "@id": "https://toponym.kz/place/lengir",
+   "type": "Feature",
+   "properties": {
+    "title": "Леңгір",
+    "ccodes": [
+     "KZ"
+    ],
+    "fclasses": [
+     "P"
+    ]
+   },
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1900"
+      }
+     }
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Леңгір",
+     "lang": "kk"
+    },
+    {
+     "toponym": "Leńgir",
+     "lang": "kk-Latn"
+    },
+    {
+     "toponym": "Ленгер",
+     "lang": "ru"
+    },
+    {
+     "toponym": "Lenger",
+     "lang": "en"
+    },
+    {
+     "toponym": "Ленгер",
+     "lang": "ru",
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1900"
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "types": [
+    {
+     "identifier": "http://vocab.getty.edu/aat/300008372",
+     "label": "towns"
+    }
+   ],
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     69.89,
+     42.18
+    ]
+   },
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.wikidata.org/entity/Q2378015"
+    }
+   ],
+   "descriptions": [
+    {
+     "value": "[high] «обитель, приют; стоянка» — Перс. лангар «якорь; стоянка, странноприимный дом, обитель дервишей». Термин широко распространён в топонимии Средней Азии (Лангар в Узбекистане, Таджикистане). Здесь — по суфийской обители.",
+     "lang": "ru",
+     "citations": [
+      {
+       "label": "Мурзаев Э. М.. Словарь народных географических терминов. 1984"
       }
      ]
     }
@@ -2745,6 +3528,125 @@
    ]
   },
   {
+   "@id": "https://toponym.kz/place/otyrar",
+   "type": "Feature",
+   "properties": {
+    "title": "Отырар",
+    "ccodes": [
+     "KZ"
+    ],
+    "fclasses": [
+     "P"
+    ]
+   },
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "0850"
+      }
+     }
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Отырар",
+     "lang": "kk"
+    },
+    {
+     "toponym": "Otyrar",
+     "lang": "kk-Latn"
+    },
+    {
+     "toponym": "Отрар",
+     "lang": "ru"
+    },
+    {
+     "toponym": "Otrar",
+     "lang": "en"
+    },
+    {
+     "toponym": "فاراب (Фараб)",
+     "lang": "ar",
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "0850"
+        },
+        "end": {
+         "in": "1200"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Отрар",
+     "lang": "fa",
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1200"
+        },
+        "end": {
+         "in": "1700"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Отрар-тобе",
+     "lang": "ru",
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1900"
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "types": [
+    {
+     "identifier": "http://vocab.getty.edu/aat/300000810",
+     "label": "archaeological sites"
+    }
+   ],
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.302,
+     42.853
+    ]
+   },
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.wikidata.org/entity/Q956911"
+    }
+   ],
+   "descriptions": [
+    {
+     "value": "[medium] этимология не установлена — Город известен арабским географам IX–X вв. как Фараб (Параб), форма Отрар закрепляется с XIII в. Связь двух названий и происхождение формы Отрар (иранское? тюркское?) остаются предметом дискуссии.",
+     "lang": "ru",
+     "citations": [
+      {
+       "label": "Поспелов Е. М.. Географические названия мира. Топонимический словарь. 2002"
+      }
+     ]
+    },
+    {
+     "value": "[folk] тюрк. отыр- «сидеть, обитать» — Сближение с глаголом отыру по созвучию, без исторического подтверждения.",
+     "lang": "ru"
+    }
+   ]
+  },
+  {
    "@id": "https://toponym.kz/place/pavlodar",
    "type": "Feature",
    "properties": {
@@ -2994,6 +3896,132 @@
    ]
   },
   {
+   "@id": "https://toponym.kz/place/sairam",
+   "type": "Feature",
+   "properties": {
+    "title": "Сайрам",
+    "ccodes": [
+     "KZ"
+    ],
+    "fclasses": [
+     "P"
+    ]
+   },
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "0800"
+      }
+     }
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Сайрам",
+     "lang": "kk"
+    },
+    {
+     "toponym": "Sairam",
+     "lang": "kk-Latn"
+    },
+    {
+     "toponym": "Сайрам",
+     "lang": "ru"
+    },
+    {
+     "toponym": "Sayram",
+     "lang": "en"
+    },
+    {
+     "toponym": "اسفيجاب (Исфиджаб)",
+     "lang": "ar",
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "0800"
+        },
+        "end": {
+         "in": "1200"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Sayram",
+     "lang": "trk",
+     "citations": [
+      {
+       "label": "Махмуд ал-Кашгари. Диван лугат ат-турк (пер. З.-А. М. Ауэзовой). 2005"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1074"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Сайрам",
+     "lang": "ru",
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1864"
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "types": [
+    {
+     "identifier": "http://vocab.getty.edu/aat/300008375",
+     "label": "villages"
+    }
+   ],
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     69.755,
+     42.305
+    ]
+   },
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.wikidata.org/entity/Q574555"
+    }
+   ],
+   "descriptions": [
+    {
+     "value": "[high] Исфиджаб — «белая вода» — Ранняя форма Исфиджаб (Испиджаб): иран. spēd/isfēd «белый» + āb «вода». Кашгари прямо пишет, что Сайрам — это «белый город» Исфиджаб. Происхождение самой формы Сайрам не выяснено.",
+     "lang": "ru",
+     "citations": [
+      {
+       "label": "Махмуд ал-Кашгари. Диван лугат ат-турк (пер. З.-А. М. Ауэзовой). 2005"
+      }
+     ]
+    },
+    {
+     "value": "[medium] Сайрам — этимология не установлена — Тюркская или иранская, надёжной версии нет.",
+     "lang": "ru",
+     "citations": [
+      {
+       "label": "Поспелов Е. М.. Географические названия мира. Топонимический словарь. 2002"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "@id": "https://toponym.kz/place/saryarka",
    "type": "Feature",
    "properties": {
@@ -3160,6 +4188,105 @@
    ]
   },
   {
+   "@id": "https://toponym.kz/place/sauran",
+   "type": "Feature",
+   "properties": {
+    "title": "Сауран",
+    "ccodes": [
+     "KZ"
+    ],
+    "fclasses": [
+     "P"
+    ]
+   },
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "0900"
+      }
+     }
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Сауран",
+     "lang": "kk"
+    },
+    {
+     "toponym": "Saýran",
+     "lang": "kk-Latn"
+    },
+    {
+     "toponym": "Сауран",
+     "lang": "ru"
+    },
+    {
+     "toponym": "Sauran",
+     "lang": "en"
+    },
+    {
+     "toponym": "سوران (Сауран / Сабран)",
+     "lang": "ar",
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "0900"
+        },
+        "end": {
+         "in": "1600"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Сауран",
+     "lang": "ru",
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1900"
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "types": [
+    {
+     "identifier": "http://vocab.getty.edu/aat/300000810",
+     "label": "archaeological sites"
+    }
+   ],
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     67.77,
+     43.53
+    ]
+   },
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.wikidata.org/entity/Q4409147"
+    }
+   ],
+   "descriptions": [
+    {
+     "value": "[medium] этимология не установлена — Город известен арабским географам X в. как Сауран / Сабран. Происхождение неясно; предполагается доисламское иранское.",
+     "lang": "ru",
+     "citations": [
+      {
+       "label": "Поспелов Е. М.. Географические названия мира. Топонимический словарь. 2002"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "@id": "https://toponym.kz/place/semey",
    "type": "Feature",
    "properties": {
@@ -3285,6 +4412,105 @@
      "citations": [
       {
        "label": "Поспелов Е. М.. Географические названия мира. Топонимический словарь. 2002"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "@id": "https://toponym.kz/place/shardara",
+   "type": "Feature",
+   "properties": {
+    "title": "Шардара",
+    "ccodes": [
+     "KZ"
+    ],
+    "fclasses": [
+     "P"
+    ]
+   },
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1960"
+      }
+     }
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Шардара",
+     "lang": "kk"
+    },
+    {
+     "toponym": "Shardara",
+     "lang": "kk-Latn"
+    },
+    {
+     "toponym": "Шардара",
+     "lang": "ru"
+    },
+    {
+     "toponym": "Shardara",
+     "lang": "en"
+    },
+    {
+     "toponym": "Чардара",
+     "lang": "ru",
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1960"
+        },
+        "end": {
+         "in": "1993"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Шардара",
+     "lang": "kk",
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1993"
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "types": [
+    {
+     "identifier": "http://vocab.getty.edu/aat/300008372",
+     "label": "towns"
+    }
+   ],
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     67.97,
+     41.25
+    ]
+   },
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.wikidata.org/entity/Q1047741"
+    }
+   ],
+   "descriptions": [
+    {
+     "value": "[medium] «четыре ущелья / четыре двери» — Перс. чāр «четыре» + дарре «ущелье, долина» или дар «дверь». Иранизм в топонимии Присырдарьинья. Город с 1968 г. при Шардаринском водохранилище.",
+     "lang": "ru",
+     "citations": [
+      {
+       "label": "Койчубаев Е.. Краткий толковый словарь топонимов Казахстана. 1974"
       }
      ]
     }
@@ -3502,6 +4728,121 @@
      "citations": [
       {
        "label": "Койчубаев Е.. Краткий толковый словарь топонимов Казахстана. 1974"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "@id": "https://toponym.kz/place/sozak",
+   "type": "Feature",
+   "properties": {
+    "title": "Созақ",
+    "ccodes": [
+     "KZ"
+    ],
+    "fclasses": [
+     "P"
+    ]
+   },
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1100"
+      }
+     }
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Созақ",
+     "lang": "kk"
+    },
+    {
+     "toponym": "Sozaq",
+     "lang": "kk-Latn"
+    },
+    {
+     "toponym": "Сузак",
+     "lang": "ru"
+    },
+    {
+     "toponym": "Sozak",
+     "lang": "en"
+    },
+    {
+     "toponym": "Сузак",
+     "lang": "fa",
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1100"
+        },
+        "end": {
+         "in": "1800"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Сузак",
+     "lang": "ru",
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1864"
+        },
+        "end": {
+         "in": "1993"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Созақ",
+     "lang": "kk",
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1993"
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "types": [
+    {
+     "identifier": "http://vocab.getty.edu/aat/300008375",
+     "label": "villages"
+    }
+   ],
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.47,
+     44.14
+    ]
+   },
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.wikidata.org/entity/Q4445604"
+    }
+   ],
+   "descriptions": [
+    {
+     "value": "[medium] этимология не установлена — Средневековый город (Сузак) на северных склонах Каратау, известен с XI–XII вв.; столица казахских ханов в XVI в. Происхождение названия не выяснено.",
+     "lang": "ru",
+     "citations": [
+      {
+       "label": "Поспелов Е. М.. Географические названия мира. Топонимический словарь. 2002"
       }
      ]
     }
@@ -4814,6 +6155,105 @@
      "citations": [
       {
        "label": "Конкашпаев Г. К.. Словарь казахских географических названий. 1963"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "@id": "https://toponym.kz/place/zhetysai",
+   "type": "Feature",
+   "properties": {
+    "title": "Жетісай",
+    "ccodes": [
+     "KZ"
+    ],
+    "fclasses": [
+     "P"
+    ]
+   },
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1930"
+      }
+     }
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Жетісай",
+     "lang": "kk"
+    },
+    {
+     "toponym": "Jetisai",
+     "lang": "kk-Latn"
+    },
+    {
+     "toponym": "Жетысай",
+     "lang": "ru"
+    },
+    {
+     "toponym": "Zhetysai",
+     "lang": "en"
+    },
+    {
+     "toponym": "Джетысай",
+     "lang": "ru",
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1930"
+        },
+        "end": {
+         "in": "1993"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Жетісай",
+     "lang": "kk",
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1993"
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "types": [
+    {
+     "identifier": "http://vocab.getty.edu/aat/300008372",
+     "label": "towns"
+    }
+   ],
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.33,
+     40.77
+    ]
+   },
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.wikidata.org/entity/Q2378055"
+    }
+   ],
+   "descriptions": [
+    {
+     "value": "[high] «семь ложбин» — Жеті «семь» + сай «овраг, ложбина, сухое русло». Числительное «семь» типично для тюркской топонимии (ср. Жетісу).",
+     "lang": "ru",
+     "citations": [
+      {
+       "label": "Койчубаев Е.. Краткий толковый словарь топонимов Казахстана. 1974"
       }
      ]
     }

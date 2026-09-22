@@ -19,6 +19,9 @@ etymology:
       подходивших с севера.
     reliability: high
     source: murzaev-1984
+morphemes:
+  - { form: "ала", gloss: "пёстрый", kind: root }
+  - { form: "тау", gloss: "гора", kind: term }
 historical_forms:
   - form: Заилийский Алатау
     script: cyrillic

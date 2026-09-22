@@ -17,6 +17,10 @@ etymology:
       курган». Возможны оба чтения второго компонента.
     reliability: medium
     source: koichubaev-1974
+morphemes:
+  - { form: "тал", gloss: "ива", kind: root }
+  - { form: "-ды", gloss: "аффикс обладания", kind: suffix }
+  - { form: "қорған", gloss: "ограда, крепость", kind: term }
 historical_forms:
   - form: Гавриловка
     script: cyrillic

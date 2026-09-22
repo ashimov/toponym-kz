@@ -18,6 +18,10 @@ etymology:
       на город (1824 г.).
     reliability: high
     source: konkashpaev-1963
+morphemes:
+  - { form: "көк", gloss: "синий", kind: root }
+  - { form: "-ше", gloss: "уменьшительный аффикс", kind: suffix }
+  - { form: "тау", gloss: "гора", kind: term }
 historical_forms:
   - form: Кокчетав
     script: cyrillic

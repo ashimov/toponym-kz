@@ -17,6 +17,9 @@ etymology:
       «караганное место». Прозрачная тюркская модель, ср. Алматы.
     reliability: high
     source: koichubaev-1974
+morphemes:
+  - { form: "қараған", gloss: "карагана, жёлтая акация", kind: root }
+  - { form: "-ды", gloss: "аффикс обладания", kind: suffix }
 historical_forms:
   - form: Қарағанды
     script: cyrillic

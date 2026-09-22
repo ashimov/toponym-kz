@@ -193,3 +193,36 @@ body { background: var(--bg); }
 #lightbox .lb-close { top: 8px; right: 14px; }
 #lightbox .lb-prev { left: 8px; top: 50%; transform: translateY(-50%); }
 #lightbox .lb-next { right: 8px; top: 50%; transform: translateY(-50%); }
+
+/* Языки */
+.head-row { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+.langs { display: flex; gap: 2px; }
+.lang-btn { background: none; border: 1px solid var(--line); border-radius: 6px; font: 600 11px Inter, sans-serif; color: var(--muted); padding: 3px 7px; cursor: pointer; text-transform: uppercase; }
+.lang-btn[aria-pressed="true"] { background: var(--ink); color: #fff; border-color: var(--ink); }
+.check { display: flex; align-items: center; gap: 8px; font-size: 12.5px; color: var(--ink); margin-top: 10px; cursor: pointer; }
+.check input { accent-color: var(--accent); }
+.panel-foot a { color: var(--accent); text-decoration: none; }
+
+/* Морфемы */
+.morphs { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.morph { display: inline-flex; flex-direction: column; padding: 5px 10px; border-radius: 8px; background: var(--chip); border-left: 3px solid var(--accent); }
+.morph b { font: 600 15px Literata, Georgia, serif; }
+.morph span { font-size: 11px; color: var(--muted); }
+.morph.kind-suffix { border-color: #f59e0b; }
+.morph.kind-term { border-color: #6d28d9; }
+.morph.kind-word { border-color: var(--muted); }
+.morphs .plus { color: var(--muted); font-size: 14px; }
+
+/* Статистика */
+.statsview { padding: 12px 20px 24px; }
+.statsview h3 { font: 600 11.5px Inter, sans-serif; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 18px 0 8px; }
+.kpis { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+.kpi { background: var(--chip); border-radius: 8px; padding: 10px 12px; display: grid; }
+.kpi b { font: 600 24px Literata, Georgia, serif; }
+.kpi span { font-size: 11.5px; color: var(--muted); }
+.bars { display: grid; gap: 5px; }
+.bar { display: grid; grid-template-columns: 130px 1fr 28px; gap: 8px; align-items: center; font-size: 12.5px; }
+.bar .bl { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.bar .bt { height: 10px; background: var(--chip); border-radius: 5px; overflow: hidden; }
+.bar .bt i { display: block; height: 100%; border-radius: 5px; }
+.bar .bn { text-align: right; color: var(--muted); font-variant-numeric: tabular-nums; }

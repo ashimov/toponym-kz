@@ -1,0 +1,33 @@
+id: karatau
+names:
+  kk_cyr: Қаратау
+  kk_lat: Qarataý
+  ru: Каратау
+  en: Karatau
+type: range
+coords: [43.7, 69.0]
+region: KZ-61
+layer: turkic
+status: draft
+etymology:
+  - gloss: «чёрные горы»
+    language: kazakh
+    analysis: >-
+      Қара «чёрный» + тау «гора». В тюркской оронимии «чёрными» называют
+      невысокие, бесснежные, тёмные от растительности горы в
+      противоположность «белым» (ақ) снежным.
+    reliability: high
+    source: murzaev-1984
+morphemes:
+  - { form: "қара", gloss: "чёрный", kind: root }
+  - { form: "тау", gloss: "гора", kind: term }
+historical_forms:
+  - form: Каратау
+    script: cyrillic
+    language: russian
+    from: 1800
+    to: null
+    official: true
+links:
+  wikidata: Q2062939
+sources: [murzaev-1984]

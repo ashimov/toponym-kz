@@ -27,6 +27,9 @@ etymology:
       а не этимология исходного названия.
     reliability: rejected
     source: null
+morphemes:
+  - { form: "алма", gloss: "яблоко", kind: root }
+  - { form: "-ты", gloss: "аффикс обладания", kind: suffix }
 historical_forms:
   - form: Алмату
     script: arabic

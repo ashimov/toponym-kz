@@ -17,6 +17,9 @@ etymology:
       ставка Джучи, мавзолеи Джучи-хана и Алаша-хана.
     reliability: high
     source: konkashpaev-1963
+morphemes:
+  - { form: "ұлы", gloss: "великий", kind: root }
+  - { form: "тау", gloss: "гора", kind: term }
 historical_forms:
   - form: Улутау
     script: cyrillic

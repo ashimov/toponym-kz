@@ -1,0 +1,29 @@
+id: badam
+names:
+  kk_cyr: Бадам
+  kk_lat: Badam
+  ru: Бадам
+  en: Badam
+type: river
+coords: [42.3, 69.3]
+region: KZ-61
+layer: iranian
+status: draft
+etymology:
+  - gloss: «миндаль»
+    language: persian
+    analysis: Перс. бāдāм «миндаль» — по миндальным зарослям в долине. Река у Шымкента.
+    reliability: medium
+    source: koichubaev-1974
+morphemes:
+  - { form: "бāдāм", gloss: "миндаль (перс.)", kind: word }
+historical_forms:
+  - form: Бадам
+    script: cyrillic
+    language: russian
+    from: 1870
+    to: null
+    official: true
+links:
+  wikidata: Q4840551
+sources: [koichubaev-1974]

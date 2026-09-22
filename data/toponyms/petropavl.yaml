@@ -25,6 +25,9 @@ etymology:
     reliability: high
     source: konkashpaev-1963
     note: Относится к форме Қызылжар.
+morphemes:
+  - { form: "қызыл", gloss: "красный", kind: root }
+  - { form: "жар", gloss: "обрыв, яр", kind: term }
 historical_forms:
   - form: Қызылжар
     script: cyrillic

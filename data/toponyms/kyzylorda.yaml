@@ -24,6 +24,9 @@ etymology:
     reliability: high
     source: koichubaev-1974
     note: Относится к форме Ақмешіт.
+morphemes:
+  - { form: "қызыл", gloss: "красный", kind: root }
+  - { form: "орда", gloss: "ставка, столица", kind: term }
 historical_forms:
   - form: Ақмешіт (Ак-Мечеть)
     script: cyrillic

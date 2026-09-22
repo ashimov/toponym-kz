@@ -1,0 +1,28 @@
+id: arys-kalasy
+names:
+  kk_cyr: Арыс (қала)
+  kk_lat: Arys
+  ru: Арысь (город)
+  en: Arys (city)
+type: city
+coords: [42.43, 68.81]
+region: KZ-61
+layer: unknown
+status: draft
+etymology:
+  - gloss: по реке Арыс
+    language: kazakh
+    analysis: Город назван по реке (см. карточку arys); возник как станция в 1900-х при строительстве Оренбург-Ташкентской железной дороги.
+    reliability: high
+    source: koichubaev-1974
+historical_forms:
+  - form: Арысь
+    script: cyrillic
+    language: russian
+    from: 1904
+    to: null
+    official: true
+    note: Станция с 1904 г., город с 1956 г.
+links:
+  wikidata: Q718108
+sources: [koichubaev-1974]

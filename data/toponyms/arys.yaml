@@ -1,0 +1,30 @@
+id: arys
+names:
+  kk_cyr: Арыс
+  kk_lat: Arys
+  ru: Арысь
+  en: Arys
+type: river
+coords: [42.6, 68.7]
+region: KZ-61
+layer: unknown
+status: draft
+etymology:
+  - gloss: этимология не установлена
+    language: unknown
+    analysis: >-
+      Сближают с каз. арыс «оглобля; крупный, могучий» и с древним
+      названием родового объединения (арыс «подразделение жуза»).
+      Возможно дотюркское.
+    reliability: low
+    source: koichubaev-1974
+historical_forms:
+  - form: Арысь
+    script: cyrillic
+    language: russian
+    from: 1860
+    to: null
+    official: true
+links:
+  wikidata: Q2622025
+sources: [koichubaev-1974]

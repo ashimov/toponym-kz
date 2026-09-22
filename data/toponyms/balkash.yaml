@@ -16,6 +16,8 @@ etymology:
       Термин описывает заболоченные южные и западные берега озера.
     reliability: high
     source: murzaev-1984
+morphemes:
+  - { form: "балқаш", gloss: "болотистое место", kind: term }
 historical_forms:
   - form: Балхаш
     script: cyrillic

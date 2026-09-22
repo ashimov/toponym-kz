@@ -18,6 +18,9 @@ etymology:
       главным городом региона и центром почитания Ахмеда Йасави.
     reliability: high
     source: pospelov-2002
+morphemes:
+  - { form: "түрк", gloss: "тюрк", kind: root }
+  - { form: "-стан", gloss: "суффикс места (перс.)", kind: suffix }
 historical_forms:
   - form: Шавгар
     script: arabic

@@ -1,0 +1,36 @@
+id: zhetysai
+names:
+  kk_cyr: Жетісай
+  kk_lat: Jetisai
+  ru: Жетысай
+  en: Zhetysai
+type: town
+coords: [40.77, 68.33]
+region: KZ-61
+layer: turkic
+status: draft
+etymology:
+  - gloss: «семь ложбин»
+    language: kazakh
+    analysis: Жеті «семь» + сай «овраг, ложбина, сухое русло». Числительное «семь» типично для тюркской топонимии (ср. Жетісу).
+    reliability: high
+    source: koichubaev-1974
+morphemes:
+  - { form: "жеті", gloss: "семь", kind: root }
+  - { form: "сай", gloss: "ложбина, сухое русло", kind: term }
+historical_forms:
+  - form: Джетысай
+    script: cyrillic
+    language: russian
+    from: 1930
+    to: 1993
+    official: true
+  - form: Жетісай
+    script: cyrillic
+    language: kazakh
+    from: 1993
+    to: null
+    official: true
+links:
+  wikidata: Q2378055
+sources: [koichubaev-1974]

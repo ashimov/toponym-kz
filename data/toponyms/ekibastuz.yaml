@@ -18,6 +18,10 @@ etymology:
       прозрачно, мотивация — из устной традиции.
     reliability: medium
     source: koichubaev-1974
+morphemes:
+  - { form: "екі", gloss: "два", kind: root }
+  - { form: "бас", gloss: "голова", kind: root }
+  - { form: "тұз", gloss: "соль", kind: root }
 historical_forms:
   - form: Экибастуз
     script: cyrillic

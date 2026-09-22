@@ -1,0 +1,49 @@
+id: otyrar
+names:
+  kk_cyr: Отырар
+  kk_lat: Otyrar
+  ru: Отрар
+  en: Otrar
+type: site
+coords: [42.853, 68.302]
+region: KZ-61
+layer: unknown
+status: draft
+etymology:
+  - gloss: этимология не установлена
+    language: unknown
+    analysis: >-
+      Город известен арабским географам IX–X вв. как Фараб (Параб), форма
+      Отрар закрепляется с XIII в. Связь двух названий и происхождение
+      формы Отрар (иранское? тюркское?) остаются предметом дискуссии.
+    reliability: medium
+    source: pospelov-2002
+  - gloss: тюрк. отыр- «сидеть, обитать»
+    language: kazakh
+    analysis: Сближение с глаголом отыру по созвучию, без исторического подтверждения.
+    reliability: folk
+    source: null
+historical_forms:
+  - form: فاراب (Фараб)
+    script: arabic
+    language: arabic
+    from: 850
+    to: 1200
+    note: Арабские географы IX–X вв. (Ибн Хаукаль, ал-Макдиси); родина ал-Фараби.
+  - form: Отрар
+    script: arabic
+    language: persian
+    from: 1200
+    to: 1700
+    note: Взятие Отрара монголами в 1219 г.; смерть Тимура в Отраре в 1405 г. Городище заброшено в XVIII в.
+  - form: Отрар-тобе
+    script: cyrillic
+    language: russian
+    from: 1900
+    to: null
+    official: false
+    note: Название городища в археологической литературе.
+links:
+  wikidata: Q956911
+sources: [pospelov-2002]
+notes: Проверить по Бартольду («Туркестан в эпоху монгольского нашествия») и по Байпакову.

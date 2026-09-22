@@ -21,6 +21,9 @@ etymology:
     analysis: Народная этимология по внешнему сходству компонентов.
     reliability: folk
     source: null
+morphemes:
+  - { form: "бетпақ", gloss: "злосчастный (перс. bad-baxt)", kind: root }
+  - { form: "дала", gloss: "степь", kind: term }
 historical_forms:
   - form: Голодная степь
     script: cyrillic

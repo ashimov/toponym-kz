@@ -1,0 +1,39 @@
+id: shardara
+names:
+  kk_cyr: Шардара
+  kk_lat: Shardara
+  ru: Шардара
+  en: Shardara
+type: town
+coords: [41.25, 67.97]
+region: KZ-61
+layer: iranian
+status: draft
+etymology:
+  - gloss: «четыре ущелья / четыре двери»
+    language: persian
+    analysis: >-
+      Перс. чāр «четыре» + дарре «ущелье, долина» или дар «дверь».
+      Иранизм в топонимии Присырдарьинья. Город с 1968 г. при Шардаринском
+      водохранилище.
+    reliability: medium
+    source: koichubaev-1974
+morphemes:
+  - { form: "чāр", gloss: "четыре (перс.)", kind: root }
+  - { form: "дарре", gloss: "ущелье (перс.)", kind: term }
+historical_forms:
+  - form: Чардара
+    script: cyrillic
+    language: russian
+    from: 1960
+    to: 1993
+    official: true
+  - form: Шардара
+    script: cyrillic
+    language: kazakh
+    from: 1993
+    to: null
+    official: true
+links:
+  wikidata: Q1047741
+sources: [koichubaev-1974]

@@ -17,6 +17,9 @@ etymology:
       в 1869 г. заложено укрепление.
     reliability: high
     source: konkashpaev-1963
+morphemes:
+  - { form: "ақ", gloss: "белый", kind: root }
+  - { form: "төбе", gloss: "холм", kind: term }
 historical_forms:
   - form: Актюбинское укрепление
     script: cyrillic

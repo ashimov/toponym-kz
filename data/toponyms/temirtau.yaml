@@ -18,6 +18,9 @@ etymology:
       мотивация по металлургическому комбинату.
     reliability: high
     source: pospelov-2002
+morphemes:
+  - { form: "темір", gloss: "железо", kind: root }
+  - { form: "тау", gloss: "гора", kind: term }
 historical_forms:
   - form: Самаркандский
     script: cyrillic

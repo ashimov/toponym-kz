@@ -17,6 +17,9 @@ etymology:
       (Арал), перенесённое на море.
     reliability: high
     source: murzaev-1984
+morphemes:
+  - { form: "арал", gloss: "остров", kind: term }
+  - { form: "теңіз", gloss: "море", kind: term }
 historical_forms:
   - form: Синее море
     script: cyrillic

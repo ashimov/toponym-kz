@@ -17,6 +17,9 @@ etymology:
       побережья Мангышлака.
     reliability: high
     source: konkashpaev-1963
+morphemes:
+  - { form: "ақ", gloss: "белый", kind: root }
+  - { form: "тау", gloss: "гора", kind: term }
 historical_forms:
   - form: Актау
     script: cyrillic

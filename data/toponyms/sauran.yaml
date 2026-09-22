@@ -1,0 +1,36 @@
+id: sauran
+names:
+  kk_cyr: Сауран
+  kk_lat: Saýran
+  ru: Сауран
+  en: Sauran
+type: site
+coords: [43.53, 67.77]
+region: KZ-61
+layer: unknown
+status: draft
+etymology:
+  - gloss: этимология не установлена
+    language: unknown
+    analysis: >-
+      Город известен арабским географам X в. как Сауран / Сабран.
+      Происхождение неясно; предполагается доисламское иранское.
+    reliability: medium
+    source: pospelov-2002
+historical_forms:
+  - form: سوران (Сауран / Сабран)
+    script: arabic
+    language: arabic
+    from: 900
+    to: 1600
+    note: Столица Ак-Орды в XIV в.; окончательно заброшен в XVIII в.
+  - form: Сауран
+    script: cyrillic
+    language: russian
+    from: 1900
+    to: null
+    official: false
+    note: Название городища и современного посёлка.
+links:
+  wikidata: Q4409147
+sources: [pospelov-2002]

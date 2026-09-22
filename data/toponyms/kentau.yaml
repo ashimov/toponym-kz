@@ -1,0 +1,39 @@
+id: kentau
+names:
+  kk_cyr: Кентау
+  kk_lat: Kentaý
+  ru: Кентау
+  en: Kentau
+type: city
+coords: [43.52, 68.51]
+region: KZ-61
+layer: soviet
+status: draft
+etymology:
+  - gloss: «рудная гора»
+    language: kazakh (советское образование)
+    analysis: >-
+      Кен «руда, рудник» + тау «гора». Город построен в 1955 г. при
+      Ачисайском полиметаллическом комбинате; название дано при основании.
+    reliability: high
+    source: koichubaev-1974
+morphemes:
+  - { form: "кен", gloss: "руда", kind: root }
+  - { form: "тау", gloss: "гора", kind: term }
+historical_forms:
+  - form: Миргалимсай
+    script: cyrillic
+    language: kazakh
+    from: 1940
+    to: 1955
+    official: true
+    note: Посёлок при руднике; переименован в Кентау с присвоением статуса города.
+  - form: Кентау
+    script: cyrillic
+    language: kazakh
+    from: 1955
+    to: null
+    official: true
+links:
+  wikidata: Q1315249
+sources: [koichubaev-1974]

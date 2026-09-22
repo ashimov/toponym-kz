@@ -14,37 +14,47 @@
     <div id="app">
       <aside id="panel">
         <header class="panel-head">
-          <h1>Топонимы Казахстана</h1>
-          <p class="sub">Происхождение названий · исторические формы · источники</p>
+          <div class="head-row">
+            <h1 data-i18n="title">Топонимы Казахстана</h1>
+            <div class="langs">
+              <button class="lang-btn" data-lang="kk" aria-pressed="false">kk</button>
+              <button class="lang-btn" data-lang="ru" aria-pressed="true">ru</button>
+              <button class="lang-btn" data-lang="en" aria-pressed="false">en</button>
+            </div>
+          </div>
+          <p class="sub" data-i18n="sub">Происхождение названий · исторические формы · источники</p>
         </header>
 
         <section class="controls">
-          <input id="search" type="search" placeholder="Поиск: Атырау, Иртыш, Гурьев…" autocomplete="off" />
+          <input id="search" type="search" data-i18n-ph="search" placeholder="Поиск: Атырау, Иртыш, Гурьев…" autocomplete="off" />
 
           <div class="year-row">
-            <label for="year">Год <output id="year-out">сегодня</output></label>
+            <label for="year"><span data-i18n="year">Год</span> <output id="year-out">сегодня</output></label>
             <input id="year" type="range" min="500" max="2026" step="1" value="2026" />
             <div class="year-ticks"><span>500</span><span>1000</span><span>1500</span><span>2026</span></div>
           </div>
 
           <details class="filters" open>
-            <summary>Фильтры</summary>
+            <summary data-i18n="filters">Фильтры</summary>
             <div class="chips" id="type-chips"></div>
             <div class="chips" id="layer-chips"></div>
+            <label class="check"><input type="checkbox" id="choropleth" /> <span data-i18n="choropleth">Раскрасить области по пласту</span></label>
           </details>
         </section>
 
         <div class="tabs">
-          <button class="tab" data-tab="list" aria-pressed="true">Топонимы</button>
-          <button class="tab" data-tab="chronicle" aria-pressed="false">Хроника переименований</button>
+          <button class="tab" data-tab="list" aria-pressed="true" data-i18n="tabList">Топонимы</button>
+          <button class="tab" data-tab="chronicle" aria-pressed="false" data-i18n="tabChronicle">Хроника переименований</button>
+          <button class="tab" data-tab="stats" aria-pressed="false" data-i18n="tabStats">Статистика</button>
         </div>
         <section id="list" class="list"></section>
         <section id="chronicle" class="list" hidden></section>
+        <section id="statsview" class="list statsview" hidden></section>
         <section id="card" class="card" hidden></section>
 
         <footer class="panel-foot">
           <span id="stats"></span>
-          <span>Границы: © OpenStreetMap, ODbL</span>
+          <span><a href="./editor.html" data-i18n="editor">Редактор карточек</a> · <span data-i18n="borders">Границы: © OpenStreetMap, ODbL</span></span>
         </footer>
       </aside>
 

@@ -1,0 +1,52 @@
+id: sairam
+names:
+  kk_cyr: Сайрам
+  kk_lat: Sairam
+  ru: Сайрам
+  en: Sayram
+type: village
+coords: [42.305, 69.755]
+region: KZ-61
+layer: iranian
+status: draft
+etymology:
+  - gloss: Исфиджаб — «белая вода»
+    language: sogdian / persian
+    analysis: >-
+      Ранняя форма Исфиджаб (Испиджаб): иран. spēd/isfēd «белый» + āb «вода».
+      Кашгари прямо пишет, что Сайрам — это «белый город» Исфиджаб.
+      Происхождение самой формы Сайрам не выяснено.
+    reliability: high
+    source: kashgari-2005
+    note: Относится к форме Исфиджаб.
+  - gloss: Сайрам — этимология не установлена
+    language: unknown
+    analysis: Тюркская или иранская, надёжной версии нет.
+    reliability: medium
+    source: pospelov-2002
+morphemes:
+  - { form: "isfēd", gloss: "белый (иран.)", kind: root }
+  - { form: "āb", gloss: "вода (иран.)", kind: term }
+historical_forms:
+  - form: اسفيجاب (Исфиджаб)
+    script: arabic
+    language: arabic
+    from: 800
+    to: 1200
+    note: Арабские географы; крупнейший город на границе с тюрками.
+  - form: Sayram
+    script: arabic
+    language: turkic
+    from: 1074
+    attested: 1074
+    source: kashgari-2005
+    note: «Сайрам — название Белого города (ал-Мадина ал-байда), который называют Исфиджаб».
+  - form: Сайрам
+    script: cyrillic
+    language: russian
+    from: 1864
+    to: null
+    official: true
+links:
+  wikidata: Q574555
+sources: [kashgari-2005, pospelov-2002]

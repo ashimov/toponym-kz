@@ -1,0 +1,42 @@
+id: aksu-zhabagly
+names:
+  kk_cyr: Ақсу-Жабағылы
+  kk_lat: Aqsý-Jabaǵyly
+  ru: Аксу-Жабаглы
+  en: Aksu-Zhabagly
+type: other
+coords: [42.4, 70.5]
+region: KZ-61
+layer: turkic
+status: draft
+etymology:
+  - gloss: Ақсу — «белая вода»; Жабағылы — «(место) с жеребятами-годовиками»
+    language: kazakh
+    analysis: >-
+      Заповедник (1926, старейший в Средней Азии) назван по двум рекам.
+      Ақсу: ақ «белый» + су «вода» — мутно-белая ледниковая вода.
+      Жабағылы: жабағы «жеребёнок-годовик; свалявшаяся шерсть» + -лы —
+      мотивация неясна, возможно по пастбищам.
+    reliability: medium
+    source: koichubaev-1974
+morphemes:
+  - { form: "ақ", gloss: "белый", kind: root }
+  - { form: "су", gloss: "вода", kind: term }
+  - { form: "жабағы", gloss: "жеребёнок-годовик", kind: root }
+  - { form: "-лы", gloss: "аффикс обладания", kind: suffix }
+historical_forms:
+  - form: Аксу-Джабаглы
+    script: cyrillic
+    language: russian
+    from: 1926
+    to: 1993
+    official: true
+  - form: Ақсу-Жабағылы
+    script: cyrillic
+    language: kazakh
+    from: 1993
+    to: null
+    official: true
+links:
+  wikidata: Q1765261
+sources: [koichubaev-1974]

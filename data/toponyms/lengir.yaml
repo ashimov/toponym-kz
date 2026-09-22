@@ -1,0 +1,33 @@
+id: lengir
+names:
+  kk_cyr: Леңгір
+  kk_lat: Leńgir
+  ru: Ленгер
+  en: Lenger
+type: town
+coords: [42.18, 69.89]
+region: KZ-61
+layer: iranian
+status: draft
+etymology:
+  - gloss: «обитель, приют; стоянка»
+    language: persian
+    analysis: >-
+      Перс. лангар «якорь; стоянка, странноприимный дом, обитель дервишей».
+      Термин широко распространён в топонимии Средней Азии (Лангар в
+      Узбекистане, Таджикистане). Здесь — по суфийской обители.
+    reliability: high
+    source: murzaev-1984
+morphemes:
+  - { form: "лангар", gloss: "обитель, приют (перс.)", kind: term }
+historical_forms:
+  - form: Ленгер
+    script: cyrillic
+    language: russian
+    from: 1900
+    to: null
+    official: true
+    note: Посёлок угольщиков с 1930-х, город с 1945 г.
+links:
+  wikidata: Q2378015
+sources: [murzaev-1984]

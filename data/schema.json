@@ -61,6 +61,21 @@
         }
       }
     },
+    "morphemes": {
+      "type": "array",
+      "description": "Структурный морфемный разбор принятой гипотезы: по одному элементу на морфему, в порядке следования",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["form", "gloss", "kind"],
+        "properties": {
+          "form": { "type": "string", "description": "Морфема как в названии: ақ, -ты, тау" },
+          "gloss": { "type": "string", "description": "Значение: «белый», «аффикс обладания»" },
+          "kind": { "type": "string", "enum": ["root", "suffix", "prefix", "word", "term"], "description": "root = корень; suffix/prefix = аффикс; word = самостоятельное слово; term = географический термин (тау, су, көл, өзен)" },
+          "lang": { "type": "string", "description": "Язык морфемы, если отличается от пласта карточки" }
+        }
+      }
+    },
     "historical_forms": {
       "type": "array",
       "items": {

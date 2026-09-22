@@ -20,6 +20,9 @@ etymology:
       перенесено на город Ленинск.
     reliability: medium
     source: koichubaev-1974
+morphemes:
+  - { form: "бай", gloss: "богатый", kind: root }
+  - { form: "қоңыр", gloss: "бурый", kind: root }
 historical_forms:
   - form: Заря
     script: cyrillic

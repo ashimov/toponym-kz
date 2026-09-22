@@ -1,0 +1,27 @@
+id: keles
+names:
+  kk_cyr: Келес
+  kk_lat: Keles
+  ru: Келес
+  en: Keles
+type: river
+coords: [41.6, 69.4]
+region: KZ-61
+layer: unknown
+status: draft
+etymology:
+  - gloss: этимология не установлена
+    language: unknown
+    analysis: Правый приток Сырдарьи. Сближение с каз. келес «приходящий» (от кел- «приходить») не подтверждено.
+    reliability: low
+    source: koichubaev-1974
+historical_forms:
+  - form: Келес
+    script: cyrillic
+    language: russian
+    from: 1870
+    to: null
+    official: true
+links:
+  wikidata: Q3491252
+sources: [koichubaev-1974]

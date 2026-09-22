@@ -1,0 +1,35 @@
+id: kazygurt
+names:
+  kk_cyr: Қазығұрт
+  kk_lat: Qazyǵurt
+  ru: Казыгурт
+  en: Kazygurt
+type: mountain
+coords: [41.75, 69.42]
+region: KZ-61
+layer: unknown
+status: draft
+etymology:
+  - gloss: этимология не установлена
+    language: unknown
+    analysis: >-
+      Сакральная гора, где по казахскому преданию остановился ковчег Нуха.
+      Предлагались тюркские (қазық «кол» + -ұрт?), иранские и субстратные
+      объяснения; ни одно не общепринято.
+    reliability: medium
+    source: koichubaev-1974
+  - gloss: қазы «конская колбаса» + құрт «сушёный творог»
+    language: kazakh
+    analysis: Народная этимология по созвучию с названиями блюд.
+    reliability: folk
+    source: null
+historical_forms:
+  - form: Казыгурт
+    script: cyrillic
+    language: russian
+    from: 1850
+    to: null
+    official: true
+links:
+  wikidata: Q16657046
+sources: [koichubaev-1974]
